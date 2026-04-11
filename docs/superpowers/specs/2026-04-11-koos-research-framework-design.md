@@ -512,18 +512,28 @@ Output format per finding:
 - Lens D (Emotional & Social Gains): Desired feelings, confidence, status, belonging, peace of mind
 
 **Persona Synthesis — `protocols/persona-synthesis.md`:**
-- Uses JTBD and pains/gains outputs as inputs (runs after those protocols)
+- **No hard dependencies — works standalone on transcripts alone.** But when prior analyses exist in the project's `analysis/` folder (JTBD, pains/gains), they are **mandatory input** — the protocol must incorporate them as foundational data, not optional enrichment. When they don't exist, the protocol runs its own lightweight extraction internally as part of preparation.
 - Lens A (Need Pattern Clustering): Group participants by shared need patterns — who wants the same things?
 - Lens B (Behavior Clustering): Group by how they currently act — similar workarounds, similar habits
 - Lens C (Barrier Clustering): Group by what holds them back — similar obstacles, similar fears
 - Lens D (Adversarial): Challenge the clusters — are we forcing people into groups? Who doesn't fit? Are we seeing real segments or artifacts?
 
 **Journey Mapping — `protocols/journey-mapping.md`:**
-- Uses all previous analyses as inputs (runs last)
+- **No hard dependencies — works standalone on transcripts alone.** But when prior analyses exist in the project's `analysis/` folder (JTBD, pains/gains, personas), they are **mandatory input** — the protocol must build on them, using identified jobs, pains, gains, and persona segments to enrich the journey map. When they don't exist, the protocol works directly from transcript evidence.
 - Lens A (Touchpoint Mapping): Identify every interaction point from the transcripts — what happened, in what order
 - Lens B (Emotional Arc): Map how participants felt at each touchpoint — satisfaction, frustration, anxiety, delight
 - Lens C (Moments of Truth): Identify the make-or-break moments where the experience either earned or destroyed trust
 - Lens D (Gap Analysis): Where are the missing touchpoints? What should exist but doesn't? Where does the journey break down?
+
+### Protocol Dependency Rule
+
+All four protocols can run independently on any project at any time — there are no hard prerequisites. However, when prior analysis outputs exist in the project's `analysis/` folder, later protocols **must** use them as foundational input:
+
+- **JTBD and Pains & Gains**: Fully independent. Can run in parallel. No prior analysis needed.
+- **Persona Synthesis**: If JTBD and/or pains/gains analyses exist → mandatory input. If not → works from transcripts alone.
+- **Journey Mapping**: If any prior analyses exist (JTBD, pains/gains, personas) → all are mandatory input. If not → works from transcripts alone.
+
+The rule is: **use it if it's there (non-negotiable), work without it if it's not.** The protocol's preparation stage checks the `analysis/` folder and adapts accordingly.
 
 ---
 
