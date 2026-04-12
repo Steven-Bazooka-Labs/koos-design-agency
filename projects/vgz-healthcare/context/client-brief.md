@@ -26,6 +26,6 @@ VGZ believes patients want more control and transparency. Internal data shows th
 
 Like all Dutch health insurers, VGZ faces rising healthcare costs and thinning margins on basic insurance. Digital transformation is partly a strategic imperative (meeting patient expectations) and partly an economic necessity (reducing service cost per policyholder). The portal must deliver on both fronts to justify the investment.
 
-## What VGZ Is Asking KOOS
+## What VGZ Is Asking Koos
 
 Before committing to full development, VGZ wants to validate the portal concept with real patients. The central question: does this concept genuinely address patient needs, or is VGZ solving for its own operational efficiency and projecting that onto patients?

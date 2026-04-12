@@ -4,7 +4,7 @@
 
 Jobs to Be Done is a framework originally articulated by Clayton Christensen and further developed by Bob Moesta, Tony Ulwick, and others. The core insight is deceptively simple: people don't buy products or use services for what they are -- they "hire" them to make progress in a specific circumstance. A job is the underlying progress a person is trying to make in a given situation. It is not a task, not a feature request, and not a demographic trait. It is the reason behind the reason.
 
-At KOOS, JTBD serves as a foundational lens for understanding human motivation. Rather than asking "what do users want?" we ask "what progress are people trying to make, and what circumstances shape that progress?" This reframing moves us from surface-level feature lists to the deeper motivational structures that drive behavior, decision-making, and satisfaction.
+At Koos, JTBD serves as a foundational lens for understanding human motivation. Rather than asking "what do users want?" we ask "what progress are people trying to make, and what circumstances shape that progress?" This reframing moves us from surface-level feature lists to the deeper motivational structures that drive behavior, decision-making, and satisfaction.
 
 ## The Three Dimensions of a Job
 
@@ -18,7 +18,7 @@ Every job has three intertwined dimensions. Isolating only one leads to incomple
 
 A single hiring decision or service interaction typically involves all three dimensions simultaneously. A person choosing a healthcare provider is trying to get appropriate treatment (functional), feel safe and heard (emotional), and demonstrate responsible self-care to their family (social).
 
-## The KOOS JTBD Format
+## The Koos JTBD Format
 
 We express jobs using a structured sentence:
 
@@ -34,14 +34,14 @@ Example: "When I receive a diagnosis I don't fully understand, I want to find tr
 
 ## When to Use JTBD
 
-JTBD analysis is valuable across the KOOS project lifecycle, though its application shifts by phase:
+JTBD analysis is valuable across the Koos project lifecycle, though its application shifts by phase:
 
 - **Discover phase (exploratory research):** JTBD is a primary output of early research. During interviews and contextual inquiry, we listen for the jobs people are trying to do, the circumstances that create those jobs, and the solutions they currently hire (or fire). This forms the motivational foundation for all subsequent design work.
 - **Develop phase (concept testing):** When evaluating concepts, we assess whether a proposed solution addresses real jobs. Does it help people make the progress they are seeking? Does it address functional, emotional, and social dimensions?
 - **Deliver phase (evaluative):** In usability testing and service evaluation, JTBD provides the success criteria. We measure not just whether someone can complete a task, but whether the experience enables the progress they are trying to make.
 - **Reframing exercises:** JTBD is particularly powerful for reframing problem statements. Instead of "what's wrong with the current service," we ask "what are people trying to achieve, and where does the current service fail to support that progress?"
 
-## How KOOS Applies JTBD
+## How Koos Applies JTBD
 
 Several principles guide our use of JTBD:
 

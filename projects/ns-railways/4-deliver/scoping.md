@@ -12,8 +12,8 @@
 | Research Type   | Evaluative                                                 |
 | Start Date      | 2026-03-22                                                 |
 | End Date        | 2026-04-18                                                 |
-| Lead Analyst    | KOOS Research Lead                                         |
-| Supporting Team | KOOS Project Lead, NS Product Owner (observer in sessions) |
+| Lead Analyst    | Koos Research Lead                                         |
+| Supporting Team | Koos Project Lead, NS Product Owner (observer in sessions) |
 
 ---
 
@@ -62,7 +62,7 @@
 - Recruitment bias: Commuters recruited via NS customer panel. Panel members are active NS customers who opted in -- they are heavier NS users than the average passenger and may have more positive attitudes toward NS products.
 - Recruitment bias: Occasional travelers and tourists recruited via station intercepts at Amsterdam Centraal, Utrecht Centraal, and Rotterdam Centraal. This method over-represents passengers who are already at major NS stations, excluding those who avoid train travel or use smaller stations.
 - Language: Tourist interviews conducted in English. Both tourist participants (Spanish and German) are non-native English speakers, which may limit nuance in their responses.
-- Moderator: Same KOOS researcher moderates all 10 sessions. Consistent moderation reduces variability but may introduce systematic framing effects.
+- Moderator: Same Koos researcher moderates all 10 sessions. Consistent moderation reduces variability but may introduce systematic framing effects.
 - Sample size: 10 participants. Sufficient for qualitative pattern identification across segments, but not for quantitative generalization. Findings should be framed as directional, not statistically representative.
 - Device variation: Participants use their own smartphones. App version, screen size, and OS differences may affect the experience observed in sessions.
 
@@ -81,7 +81,7 @@
 
 This evaluation sits within a broader strategic context for NS. The multimodal journey planner is the first consumer-facing expression of NS's 2025-2030 vision to become a "mobility partner" rather than a railway operator. The stakes are high: if the planner fails to gain traction, it undermines NS's case for further investment in multimodal integration.
 
-Prior KOOS phases (Discover, Define, Develop) established that passengers want simpler multimodal planning but are skeptical of whether NS -- traditionally a train-only company -- can deliver it credibly. The Develop phase produced concepts that tested well, and many of those concepts informed the launched product. This Deliver phase closes the loop: did the implemented product deliver on the promise?
+Prior Koos phases (Discover, Define, Develop) established that passengers want simpler multimodal planning but are skeptical of whether NS -- traditionally a train-only company -- can deliver it credibly. The Develop phase produced concepts that tested well, and many of those concepts informed the launched product. This Deliver phase closes the loop: did the implemented product deliver on the promise?
 
 Key reference documents in `context/`:
 - `client-brief.md` -- Original NS brief and problem statement

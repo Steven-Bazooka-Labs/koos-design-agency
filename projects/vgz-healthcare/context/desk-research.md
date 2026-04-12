@@ -12,7 +12,7 @@ Cooperatie VGZ is the second-largest insurer group, covering approximately 4.2 m
 
 ### Customer Satisfaction (Fictional but Realistic)
 
-- **NPS:** +14 (industry average: +8). Improved from +1 following KOOS's previous service redesign engagement.
+- **NPS:** +14 (industry average: +8). Improved from +1 following Koos's previous service redesign engagement.
 - **Overall satisfaction:** 7.4 out of 10 (industry average: 7.1).
 - **Digital channel satisfaction:** 6.8 out of 10 -- notably lower than overall satisfaction, indicating a gap between digital and non-digital experiences.
 - **Phone service satisfaction:** 8.1 out of 10 -- VGZ's strongest channel, which creates a paradox: the channel VGZ wants to reduce is the one patients rate highest.

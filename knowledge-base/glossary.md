@@ -1,6 +1,6 @@
-# KOOS Terminology Glossary
+# Koos Terminology Glossary
 
-This glossary defines key terms as KOOS uses them. Consistent terminology prevents miscommunication between researchers, designers, clients, and AI systems. Each entry includes the definition, a correct usage example, and a common misuse to avoid.
+This glossary defines key terms as Koos uses them. Consistent terminology prevents miscommunication between researchers, designers, clients, and AI systems. Each entry includes the definition, a correct usage example, and a common misuse to avoid.
 
 ---
 
@@ -146,7 +146,7 @@ This glossary defines key terms as KOOS uses them. Consistent terminology preven
 
 ## Confidence Level
 
-**Definition:** An explicit assessment of how much trust should be placed in a finding or insight, based on the quality, quantity, and consistency of supporting evidence. KOOS uses three levels: High (strong convergence, large or representative sample), Medium (moderate convergence, adequate sample), and Low (limited data, small sample, or mixed signals).
+**Definition:** An explicit assessment of how much trust should be placed in a finding or insight, based on the quality, quantity, and consistency of supporting evidence. Koos uses three levels: High (strong convergence, large or representative sample), Medium (moderate convergence, adequate sample), and Low (limited data, small sample, or mixed signals).
 
 **Correct usage:** "Confidence: Medium. This finding is supported by consistent statements from 5 of 12 participants, but we have no observational or quantitative data to corroborate it."
 

@@ -1,6 +1,6 @@
-# KOOS Tone of Voice Guide
+# Koos Tone of Voice Guide
 
-This guide defines how we write at KOOS — across research deliverables, client communications, internal documentation, and AI-generated outputs. Every piece of writing that carries the KOOS name should reflect these principles.
+This guide defines how we write at Koos — across research deliverables, client communications, internal documentation, and AI-generated outputs. Every piece of writing that carries the Koos name should reflect these principles.
 
 ## Core Principles
 
@@ -32,7 +32,7 @@ We state clearly what the evidence shows. We also state clearly what it does not
 
 ## Before and After Examples
 
-These examples illustrate the difference between generic writing and KOOS-quality writing.
+These examples illustrate the difference between generic writing and Koos-quality writing.
 
 ### 1. Writing about participants
 
@@ -78,7 +78,7 @@ Why it matters: Recommendations must be specific, prioritised, and traceable to 
 
 ## Language Preferences
 
-These conventions apply to all KOOS deliverables, whether written by people or generated with AI assistance.
+These conventions apply to all Koos deliverables, whether written by people or generated with AI assistance.
 
 | Prefer | Avoid | Reason |
 |---|---|---|

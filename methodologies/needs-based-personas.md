@@ -4,9 +4,9 @@
 
 Traditional personas are built on demographics: age, income, location, job title. The assumption is that people with similar demographic profiles will have similar needs. This assumption frequently fails. Two 35-year-old parents living in the same suburb may have fundamentally different needs from a healthcare service -- one managing a chronic condition with deep system familiarity, the other navigating the system for the first time with high anxiety and low health literacy. Conversely, a 25-year-old graduate student and a 60-year-old retiree may share the same core need: clear, jargon-free guidance through an unfamiliar bureaucratic process.
 
-KOOS builds personas from needs, not demographics. We start with what people are trying to achieve, what pains they experience, and what gains they seek. We cluster participants by shared need patterns and only then examine what characteristics distinguish one cluster from another. Demographics may be among those characteristics, but they are never the starting point. This approach produces personas that are genuinely useful for design decisions because they reflect the dimensions along which experience actually varies.
+Koos builds personas from needs, not demographics. We start with what people are trying to achieve, what pains they experience, and what gains they seek. We cluster participants by shared need patterns and only then examine what characteristics distinguish one cluster from another. Demographics may be among those characteristics, but they are never the starting point. This approach produces personas that are genuinely useful for design decisions because they reflect the dimensions along which experience actually varies.
 
-## How KOOS Builds Personas
+## How Koos Builds Personas
 
 The persona creation process follows a deliberate sequence. The quality of each step depends on the quality of the preceding one.
 
@@ -22,11 +22,11 @@ The persona creation process follows a deliberate sequence. The quality of each 
 
 ## Persona Card Structure
 
-Each KOOS persona card includes the following elements:
+Each Koos persona card includes the following elements:
 
 - **Archetype name:** The descriptive label for this persona.
 - **One-sentence orientation:** A single sentence capturing the core stance or relationship this persona has toward the service or experience. This is the most important line on the card -- it should immediately convey what makes this persona distinct.
-- **Key jobs (3-5):** The most important Jobs to Be Done for this persona, drawn from the JTBD analysis and expressed in the standard KOOS format.
+- **Key jobs (3-5):** The most important Jobs to Be Done for this persona, drawn from the JTBD analysis and expressed in the standard Koos format.
 - **Primary pains (3-5):** The most significant pains this persona experiences, with enough specificity to guide design decisions.
 - **Primary gains (3-5):** The most valued gains for this persona, including both expected and desired gains.
 - **Representative quotes (2-3):** Verbatim quotes from participants in this cluster that vividly illustrate the persona's perspective. These bring the persona to life and keep the team connected to real human voices.
@@ -34,15 +34,15 @@ Each KOOS persona card includes the following elements:
 - **Participant IDs in cluster:** The list of research participants whose data informed this persona. This maintains the evidence chain and enables the team to return to source material.
 - **Confidence level:** An honest assessment of how well-supported this persona is. A persona built from eight participants with strong convergence warrants higher confidence than one built from three participants with moderate alignment.
 
-## How KOOS Applies Needs-Based Personas
+## How Koos Applies Needs-Based Personas
 
 **Aim for 3-5 personas per project.** Fewer than three usually means important distinctions are being collapsed. More than five typically means the personas are too granular to be useful as design tools -- the team cannot hold more than five distinct perspectives in working memory during a design session.
 
-**Every element must be evidence-based.** Personas built from imagination or assumption are worse than no personas at all, because they create false confidence. Every job, pain, gain, and quote on a KOOS persona card must trace back to research data. If there is insufficient evidence for an element, it is either omitted or flagged as a hypothesis requiring validation.
+**Every element must be evidence-based.** Personas built from imagination or assumption are worse than no personas at all, because they create false confidence. Every job, pain, gain, and quote on a Koos persona card must trace back to research data. If there is insufficient evidence for an element, it is either omitted or flagged as a hypothesis requiring validation.
 
 **Avoid stereotypes.** Needs-based construction helps here, but vigilance is still required. Review persona cards for unexamined assumptions about gender, age, culture, ability, or socioeconomic status. If a demographic characteristic appears on a card, it should be there because the data supports its relevance to the need pattern, not because of unconscious association.
 
-**Personas are design tools, not marketing segments.** KOOS personas exist to help teams make better design decisions by maintaining empathy with distinct groups of people. They are not audience segments for targeting, messaging, or conversion optimization. This distinction shapes how we build them, how we present them, and how we use them in workshops.
+**Personas are design tools, not marketing segments.** Koos personas exist to help teams make better design decisions by maintaining empathy with distinct groups of people. They are not audience segments for targeting, messaging, or conversion optimization. This distinction shapes how we build them, how we present them, and how we use them in workshops.
 
 **Every participant should fit.** If a research participant does not map to any persona, the persona set is incomplete. Outliers may not warrant their own persona, but they should be accounted for -- either by broadening an existing persona or by noting edge cases explicitly.
 

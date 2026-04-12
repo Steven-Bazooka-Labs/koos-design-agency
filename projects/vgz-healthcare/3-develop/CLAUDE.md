@@ -24,7 +24,7 @@ Concept testing of a digital self-service portal with VGZ policyholders. A click
 
 - `scoping.md` -- Research scope, questions, hypotheses, and participant composition
 - `transcripts/` -- Individual interview transcripts (to be added as interviews are conducted)
-- `analysis/` -- Analysis outputs produced using KOOS protocols
+- `analysis/` -- Analysis outputs produced using Koos protocols
 
 ## Analysis Guidance
 

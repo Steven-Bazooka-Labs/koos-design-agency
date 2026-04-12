@@ -1,6 +1,6 @@
 # Quality Criteria for Analysis Findings
 
-This document defines the evidence bar for every finding produced by the multi-agent analysis pipeline. Use it during convergence analysis (Stage 3) and synthesis (Stage 5) to evaluate whether extracted findings meet KOOS's standard of rigor.
+This document defines the evidence bar for every finding produced by the multi-agent analysis pipeline. Use it during convergence analysis (Stage 3) and synthesis (Stage 5) to evaluate whether extracted findings meet Koos's standard of rigor.
 
 ---
 

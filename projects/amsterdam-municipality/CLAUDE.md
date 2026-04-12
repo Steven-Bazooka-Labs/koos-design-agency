@@ -15,16 +15,16 @@ Amsterdam is modernizing its citizen-facing services as part of a broader digita
 - **Digital Team** -- Internal team building and maintaining digital channels. Wants systemic, long-term improvements.
 - **Frontline Service Desk Staff** -- Daily contact with citizens. Want their workload reduced and better tools to help people.
 
-## Prior KOOS Work with Amsterdam
+## Prior Koos Work with Amsterdam
 
-KOOS has an established relationship with the Municipality of Amsterdam. Previous engagements include:
+Koos has an established relationship with the Municipality of Amsterdam. Previous engagements include:
 
 - **Inclusive digital services for Amsterdam** -- Service Design Award 2020 Finalist. Focused on making municipal digital services accessible to all citizens.
 - **Teacher shortage reduction** -- Service design interventions that helped reduce Amsterdam's teacher shortage from 18.7% to 12.2%.
 
 ## Project Structure
 
-This project follows KOOS's four-phase Double Diamond approach:
+This project follows Koos's four-phase Double Diamond approach:
 
 1. **Discover** (current phase) -- Exploratory research with citizens to understand how they experience municipal services.
 2. **Define** -- Synthesize findings into problem statements, personas, journey maps, and opportunity areas.

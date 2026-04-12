@@ -1,12 +1,12 @@
 # Architecture Overview
 
-This document explains how the KOOS research analysis system works -- what it is, how its pieces fit together, and why it is built this way.
+This document explains how the Koos research analysis system works -- what it is, how its pieces fit together, and why it is built this way.
 
 ---
 
 ## 1. System Overview
 
-This repository is a methodology framework. It turns Claude Desktop into a standardized research analyst that follows KOOS's established methods, uses KOOS's terminology, and produces deliverables that match KOOS's quality standards.
+This repository is a methodology framework. It turns Claude Desktop into a standardized research analyst that follows Koos's established methods, uses Koos's terminology, and produces deliverables that match Koos's quality standards.
 
 **How it works in practice:**
 
@@ -121,7 +121,7 @@ Every deliverable includes a verification report: quote accuracy rates, inferenc
 
 ## 5. Double Diamond Integration
 
-KOOS works in the Double Diamond: Discover, Define, Develop, Deliver. Each phase has a different analytical stance, and the phase-level `CLAUDE.md` files calibrate the analysis accordingly:
+Koos works in the Double Diamond: Discover, Define, Develop, Deliver. Each phase has a different analytical stance, and the phase-level `CLAUDE.md` files calibrate the analysis accordingly:
 
 - **Discover** -- Divergent. Cast a wide net. Include rather than exclude. Do not filter for feasibility. Capture everything, especially the unexpected. The most valuable insights are often the surprises.
 - **Define** -- Convergent. Synthesize patterns into problem statements, personas, and opportunity areas. Prioritize and focus. Turn breadth into clarity.
@@ -146,7 +146,7 @@ The rule is simple: **use it if it is there (non-negotiable), work without it if
 
 ## 7. Extensibility
 
-The system is designed to grow with KOOS's practice. Every component is modular:
+The system is designed to grow with Koos's practice. Every component is modular:
 
 **Add a new analysis protocol.** Create four files: a protocol in `protocols/` (the pipeline instructions), a methodology doc in `methodologies/` (the theoretical foundation), an output template in `templates/output-formats/` (the deliverable structure), and a slash command in `.claude/commands/` (the user-facing trigger). The existing protocols serve as patterns to follow.
 
@@ -154,6 +154,6 @@ The system is designed to grow with KOOS's practice. Every component is modular:
 
 **Add new sector rules.** Create a rule file in `.claude/rules/` with a `paths` frontmatter block pointing to the relevant project folder. The rule activates automatically whenever Claude works within that path. The existing rules for healthcare, mobility, and public sector show the pattern.
 
-**Customize the methodology.** The knowledge base (`knowledge-base/`) contains KOOS's identity, tone of voice, glossary, deliverable standards, and ethics guidelines. Editing these files changes how every analysis behaves -- the glossary terms Claude uses, the ethical checks it applies, the tone it writes in, the quality bar it enforces.
+**Customize the methodology.** The knowledge base (`knowledge-base/`) contains Koos's identity, tone of voice, glossary, deliverable standards, and ethics guidelines. Editing these files changes how every analysis behaves -- the glossary terms Claude uses, the ethical checks it applies, the tone it writes in, the quality bar it enforces.
 
 No engineering is required for any of these changes. The system is configured entirely through markdown files.

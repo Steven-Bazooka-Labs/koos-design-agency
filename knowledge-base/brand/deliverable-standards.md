@@ -1,6 +1,6 @@
-# KOOS Deliverable Standards
+# Koos Deliverable Standards
 
-This document defines the structure, formatting, and quality requirements for every research deliverable produced at KOOS. All outputs — whether written by a researcher or generated with AI assistance — must meet these standards before reaching a client.
+This document defines the structure, formatting, and quality requirements for every research deliverable produced at Koos. All outputs — whether written by a researcher or generated with AI assistance — must meet these standards before reaching a client.
 
 ## Required Structure
 

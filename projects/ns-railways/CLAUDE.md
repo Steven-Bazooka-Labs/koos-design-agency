@@ -14,9 +14,9 @@ NS is transitioning from a traditional railway operator to a modern, customer-ce
 - **Head of Customer Experience** -- Owns the end-to-end passenger experience across all touchpoints. Focused on NPS and satisfaction metrics.
 - **Journey Management Team** -- Cross-functional team working on journey reliability, information provision, and disruption communication.
 
-## Prior KOOS Work with NS
+## Prior Koos Work with NS
 
-KOOS has a 3+ year partnership with NS across multiple engagements:
+Koos has a 3+ year partnership with NS across multiple engagements:
 
 - **Journey management framework** -- Designed the strategic framework NS uses to manage the passenger experience across planning, travel, and disruption scenarios.
 - **NS Youth ticket** -- Service design for the youth subscription product, achieving 71% participation among Dutch youth aged 12-18.
@@ -24,7 +24,7 @@ KOOS has a 3+ year partnership with NS across multiple engagements:
 
 ## Project Structure
 
-This project follows KOOS's four-phase Double Diamond approach:
+This project follows Koos's four-phase Double Diamond approach:
 
 1. **Discover** -- Exploratory research into how passengers plan and experience multimodal journeys today.
 2. **Define** -- Synthesize findings into problem statements, personas, and opportunity areas for the planner.

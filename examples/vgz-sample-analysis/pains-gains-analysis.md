@@ -586,7 +586,7 @@
 
 ## Methodology Note
 
-This analysis was produced using KOOS's multi-agent analysis protocol. Each transcript was analyzed independently by 20 agents across 4 interpretive lenses:
+This analysis was produced using Koos's multi-agent analysis protocol. Each transcript was analyzed independently by 20 agents across 4 interpretive lenses:
 
 - **Obvious lens (5 agents):** Surface-level, explicitly stated pains and gains
 - **Implicit lens (5 agents):** Pains and gains inferred from behavior, workarounds, and context

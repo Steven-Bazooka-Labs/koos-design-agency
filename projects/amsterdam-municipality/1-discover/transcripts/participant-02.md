@@ -4,7 +4,7 @@
 **Duur:** 43 minuten
 **Interviewer:** Jelle de Groot
 **Deelnemer:** P02
-**Locatie:** KOOS Studio, Prinsengracht, Amsterdam
+**Locatie:** Koos Studio, Prinsengracht, Amsterdam
 **Onderzoekscontext:** Verkennend onderzoek naar de ervaringen van Amsterdammers met gemeentelijke dienstverlening
 
 ---

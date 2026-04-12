@@ -1,8 +1,8 @@
-# KOOS AI-Augmented Research Analysis Framework — Implementation Plan
+# Koos AI-Augmented Research Analysis Framework — Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a demo git repo that encodes KOOS design agency's research methodologies as AI-executable protocols, complete with synthetic interview transcripts and example analysis output, ready for a walkthrough with the CEO and senior designers.
+**Goal:** Build a demo git repo that encodes Koos design agency's research methodologies as AI-executable protocols, complete with synthetic interview transcripts and example analysis output, ready for a walkthrough with the CEO and senior designers.
 
 **Architecture:** Pure markdown repo. CLAUDE.md files at root, project, and phase level instruct Claude Desktop. Knowledge base docs provide context; protocol docs define multi-agent analysis pipelines (4 lenses x 5 agents + evidence verification = 43 agent runs per analysis). Three demo projects with 10 Dutch interview transcripts each showcase different Double Diamond phases.
 
@@ -51,7 +51,7 @@ mkdir -p knowledge-base/company knowledge-base/ethics
 
 - [ ] **Step 2: Write `knowledge-base/company/about-koos.md`**
 
-Write the full KOOS company profile. Content must include:
+Write the full Koos company profile. Content must include:
 - Company identity: Koos B.V., ~40 people, B Corp certified, founded ~2010
 - Offices: Amsterdam (Danzigerbocht 39, 1013 AM) and Abu Dhabi (Incubator Building, Masdar City)
 - Mission: "Your catalyst for change" — designing for people, accelerated by tech, delivering for business
@@ -68,7 +68,7 @@ Target length: ~400-600 words.
 
 Write the six-sector breakdown. For each sector, include:
 - Sector name and description
-- Typical problems KOOS solves in this sector
+- Typical problems Koos solves in this sector
 - Key stakeholders (who commissions, who benefits, who is affected)
 - Domain sensitivities Claude must be aware of
 
@@ -120,7 +120,7 @@ Target length: ~400-500 words.
 
 - [ ] **Step 6: Write `knowledge-base/glossary.md`**
 
-Write the KOOS terminology glossary. For each term: definition, example of correct usage, common misuse to avoid. Terms to include:
+Write the Koos terminology glossary. For each term: definition, example of correct usage, common misuse to avoid. Terms to include:
 
 1. **Insight**: A non-obvious finding, supported by evidence from multiple participants, that changes how we understand the problem or opportunity. Not just a fact. Example: "Parents don't read the full letter — they scan for the date and the amount" is an insight. "Parents receive letters" is not.
 2. **Observation**: Something noticed in the data that may or may not be significant. An observation becomes a finding when it recurs; it becomes an insight when it's non-obvious and actionable. Misuse: using "observation" and "insight" interchangeably.
@@ -131,7 +131,7 @@ Write the KOOS terminology glossary. For each term: definition, example of corre
 7. **Job to be done (JTBD)**: The underlying progress a person is trying to make in a given circumstance. Expressed as: "When [situation], I want to [motivation], so I can [expected outcome]." Three types: functional (get something done), emotional (feel a certain way), social (be perceived in a certain way). Misuse: confusing jobs with tasks or features.
 8. **Moment of truth**: A touchpoint where the experience either earns or breaks trust. These are the make-or-break interactions that disproportionately shape overall perception. Not every touchpoint is a moment of truth — only the high-stakes ones.
 9. **Touchpoint**: Any point of interaction between the person and the service/organization. Can be digital (website, app), physical (office, store), or human (phone call, face-to-face). Moments of truth are a subset of touchpoints.
-10. **Persona**: A representative archetype built from research data. At KOOS, personas are needs-based (clustered by need patterns), not demographic (not "Sarah, 34, marketing manager"). Each persona represents a distinct need pattern that may span ages, genders, and backgrounds.
+10. **Persona**: A representative archetype built from research data. At Koos, personas are needs-based (clustered by need patterns), not demographic (not "Sarah, 34, marketing manager"). Each persona represents a distinct need pattern that may span ages, genders, and backgrounds.
 11. **Journey map**: A visualization of the complete experience across touchpoints, showing actions, emotions, pain points, and opportunities over time. Must be evidence-based — every element tied to transcript data.
 12. **Service blueprint**: An extension of the journey map that also shows the organizational processes behind the scenes — frontstage (what the customer sees) and backstage (what happens internally). Not the same as a journey map.
 13. **Convergence**: In multi-agent analysis, the degree to which independent analysis runs agree on a finding. High convergence = strong signal. Low convergence = needs human review.
@@ -164,7 +164,7 @@ mkdir -p knowledge-base/brand
 
 - [ ] **Step 2: Write `knowledge-base/brand/tone-of-voice.md`**
 
-Write the KOOS tone of voice guide. Content must include:
+Write the Koos tone of voice guide. Content must include:
 
 **Core principles:**
 - Professional but warm — not corporate, not casual
@@ -256,7 +256,7 @@ mkdir -p methodologies
 
 - [ ] **Step 2: Write `methodologies/jobs-to-be-done.md`**
 
-Write the KOOS JTBD methodology reference. This is framework documentation, not a protocol (execution instructions go in `protocols/`). Content:
+Write the Koos JTBD methodology reference. This is framework documentation, not a protocol (execution instructions go in `protocols/`). Content:
 
 **What is a Job to Be Done:**
 - Based on Clayton Christensen's JTBD theory
@@ -269,7 +269,7 @@ Write the KOOS JTBD methodology reference. This is framework documentation, not 
 - **Emotional**: How the person wants to feel (or not feel). "When I switch health insurers, I want to feel confident I'm making the right choice, so I can stop worrying about coverage gaps."
 - **Social**: How the person wants to be perceived by others. "When managing my elderly parent's insurance, I want to appear competent to my siblings, so they trust me with this responsibility."
 
-**The KOOS format:**
+**The Koos format:**
 "When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit]."
 - The situation is critical — the same person may have different jobs in different circumstances
 - The motivation describes the progress, not a feature request
@@ -281,7 +281,7 @@ Write the KOOS JTBD methodology reference. This is framework documentation, not 
 - Evaluative research (Deliver phase): Assessing whether a solution actually enables the jobs
 - Any time you need to reframe from "what's wrong" to "what are people trying to achieve"
 
-**KOOS-specific principles:**
+**Koos-specific principles:**
 - Every job must be backed by transcript evidence — no hypothetical jobs
 - Always consider the situation/context — the same person has different jobs in different moments
 - Jobs exist in a hierarchy — big jobs contain smaller jobs. Report at the level that's actionable.
@@ -299,9 +299,9 @@ Target length: ~800-1000 words.
 
 - [ ] **Step 3: Write `methodologies/pains-and-gains.md`**
 
-Write the KOOS pains & gains methodology reference. Content:
+Write the Koos pains & gains methodology reference. Content:
 
-**Framework origin:** Based on Alex Osterwalder's Value Proposition Canvas, adapted for qualitative research analysis at KOOS.
+**Framework origin:** Based on Alex Osterwalder's Value Proposition Canvas, adapted for qualitative research analysis at Koos.
 
 **Pains — three categories:**
 - **Functional pains**: Things that don't work, waste time, create effort. Process friction, errors, delays, unnecessary steps. Example: "I have to call three times before anyone picks up."
@@ -320,7 +320,7 @@ Write the KOOS pains & gains methodology reference. Content:
 - Value proposition design: Mapping pains and gains to solution features
 - Complementary to JTBD — jobs tell you what people are trying to do; pains and gains tell you what makes it hard or rewarding
 
-**KOOS-specific principles:**
+**Koos-specific principles:**
 - Always link pains and gains to specific touchpoints or moments in the journey — not free-floating
 - Pains and gains are always evidenced — direct quotes showing the pain or gain being experienced
 - Severity matters — a pain mentioned once in passing is different from one that dominates the interview
@@ -331,15 +331,15 @@ Target length: ~700-900 words.
 
 - [ ] **Step 4: Write `methodologies/needs-based-personas.md`**
 
-Write the KOOS persona methodology. Content:
+Write the Koos persona methodology. Content:
 
 **Why needs-based, not demographic:**
 - Traditional personas (Sarah, 34, marketing manager, lives in Amsterdam) cluster by demographics
-- KOOS builds personas by clustering need patterns — who wants the same things, regardless of age, gender, or occupation
+- Koos builds personas by clustering need patterns — who wants the same things, regardless of age, gender, or occupation
 - Two 35-year-old women can have completely different needs; a 25-year-old student and a 60-year-old retiree can share the same need pattern
 - Needs-based personas are more actionable for design — they tell you what to design for, not who to design for
 
-**How KOOS builds personas:**
+**How Koos builds personas:**
 1. Start with JTBD and pains/gains analysis (when available — if not, extract directly from transcripts)
 2. Cluster participants by shared need patterns: similar jobs, similar pains, similar behaviors, similar barriers
 3. Identify the distinguishing characteristics: what makes this cluster different from the others?
@@ -356,7 +356,7 @@ Write the KOOS persona methodology. Content:
 - Behavioral indicators (how do you recognize this persona in the wild?)
 - Participants who belong to this cluster (by ID)
 
-**KOOS-specific principles:**
+**Koos-specific principles:**
 - 3-5 personas per project is the sweet spot — fewer than 3 means you're not seeing the diversity; more than 5 means you're overfitting
 - Personas must be evidence-based — every attribute traced to transcript data
 - Avoid stereotypes — if a persona starts looking like a caricature, revisit the clustering
@@ -368,7 +368,7 @@ Target length: ~700-900 words.
 
 - [ ] **Step 5: Write `methodologies/customer-journey-mapping.md`**
 
-Write the KOOS journey mapping methodology. Content:
+Write the Koos journey mapping methodology. Content:
 
 **What a journey map captures:**
 - The full experience across time — from first awareness through completion (and beyond)
@@ -379,7 +379,7 @@ Write the KOOS journey mapping methodology. Content:
 - Moments of truth: the high-stakes interactions that disproportionately shape the overall experience
 - Opportunities: where design intervention would have the most impact
 
-**Journey map structure at KOOS:**
+**Journey map structure at Koos:**
 - **Phases/stages**: The major stages of the experience (e.g., Awareness → Research → Decision → Onboarding → Usage → Support)
 - **Touchpoints per stage**: Each interaction point within a stage
 - **Actions**: What the person does (verb-driven: "calls helpdesk," "opens letter," "searches website")
@@ -395,7 +395,7 @@ Write the KOOS journey mapping methodology. Content:
 - Develop phase: mapping how a concept changes the current journey
 - Deliver phase: comparing intended journey vs. actual experience
 
-**KOOS-specific principles:**
+**Koos-specific principles:**
 - Evidence-based: every touchpoint, emotion, and pain point backed by transcript data
 - Multi-stakeholder awareness: the customer's journey intersects with internal organizational processes — note where these affect the experience
 - Moments of truth are focal points — design energy should concentrate here
@@ -967,7 +967,7 @@ Write the full JTBD analysis protocol. This is the primary execution document Cl
 - Read the phase-level CLAUDE.md to understand the Double Diamond phase
 - Read scoping.md for research questions, hypotheses, target audience
 - Read all transcripts in the phase's `transcripts/` folder
-- Read `methodologies/jobs-to-be-done.md` for the KOOS JTBD framework
+- Read `methodologies/jobs-to-be-done.md` for the Koos JTBD framework
 - Read `knowledge-base/glossary.md` for consistent terminology
 - Read `knowledge-base/ethics/anonymization.md` for data handling rules
 - Check `analysis/` folder for existing analyses (pains/gains, personas) — if present, read them for context but do not let them constrain JTBD extraction
@@ -1126,7 +1126,7 @@ Depends on: Tasks 1-5 (references all knowledge base, methodology, protocol, and
 
 Write the root CLAUDE.md — the central instruction file that shapes Claude's behavior when connected to this repo. Content must include all six sections from the spec:
 
-1. **Identity & Orientation**: "You are a research analyst working within KOOS's methodology framework..." Point to knowledge-base/ for company context, brand, glossary, ethics. Instruct consistent use of glossary terms.
+1. **Identity & Orientation**: "You are a research analyst working within Koos's methodology framework..." Point to knowledge-base/ for company context, brand, glossary, ethics. Instruct consistent use of glossary terms.
 
 2. **Available Capabilities**: List the four analysis types with one-sentence descriptions. Point to protocol files. Reference methodology docs as background reading.
 
@@ -1184,7 +1184,7 @@ Content:
 - Committed to inclusive digital services and accessible government
 - Strategic challenge: modernizing citizen-facing services while ensuring no one is left behind — digital transformation must work for all citizens regardless of age, digital literacy, language, or ability
 - Key stakeholders: Wethouder (alderman) for Digitalization, Head of Citizen Services, Digital team, frontline service desk staff
-- Prior relevant work by KOOS: designed inclusive digital services for Amsterdam (Service Design Award 2020 Finalist), partnership on teacher shortage reduction (vacancies down from 18.7% to 12.2%)
+- Prior relevant work by Koos: designed inclusive digital services for Amsterdam (Service Design Award 2020 Finalist), partnership on teacher shortage reduction (vacancies down from 18.7% to 12.2%)
 - Project overview: four-phase Double Diamond engagement. Currently in Discover phase — exploratory research with citizens.
 - Engagement goal: understand how citizens currently experience municipal services and identify the biggest opportunities for improvement
 
@@ -1251,7 +1251,7 @@ Content:
 - Serves millions of policyholders across multiple brands
 - Strategic challenge: transforming from a traditional health insurer into a customer-centric digital health partner. Patients increasingly expect self-service digital experiences, but VGZ's current digital touchpoints are fragmented and limited.
 - Key stakeholders: Director of Digital Innovation, Product Owner for Patient Portal, Head of Customer Experience, medical advisors
-- Prior work by KOOS: 13% NPS increase through service design transformation, pharmacy toolkit used in 400+ Dutch pharmacies (Service Design Award 2020 Finalist), payment issues reduction for young adults, digitising mental health therapy
+- Prior work by Koos: 13% NPS increase through service design transformation, pharmacy toolkit used in 400+ Dutch pharmacies (Service Design Award 2020 Finalist), payment issues reduction for young adults, digitising mental health therapy
 - Project overview: four-phase engagement. Currently in Develop phase — concept testing a digital self-service portal with patients.
 - Engagement goal: validate whether the proposed digital self-service portal meets real patient needs and identify gaps before development investment
 
@@ -1303,7 +1303,7 @@ Content:
 - 10.1 million passengers annually, operating the main railway network
 - Strategic challenge: transitioning from traditional railway operator to modern, customer-centric mobility provider. NS wants to own the full door-to-door journey, not just the train ride.
 - Key stakeholders: Product Owner for NS App, Head of Customer Experience, Journey Management team
-- Prior work by KOOS: 3+ year partnership on journey management framework, NS Youth ticket (71% participation among Dutch youth 12-18), NS Flex development
+- Prior work by Koos: 3+ year partnership on journey management framework, NS Youth ticket (71% participation among Dutch youth 12-18), NS Flex development
 - Project overview: four-phase engagement. Currently in Deliver phase — evaluating a recently launched real-time multimodal journey planner in the NS app.
 - Engagement goal: assess whether the journey planner is meeting passenger needs and identify improvement opportunities before wider rollout
 
@@ -1361,7 +1361,7 @@ Embedded patterns for the pipeline to discover:
 
 Transcript requirements:
 - Dutch language, verbatim conversational style
-- Metadata header: date, duration (~45-60 min), interviewer name (fictional KOOS employee), participant ID, location, research context
+- Metadata header: date, duration (~45-60 min), interviewer name (fictional Koos employee), participant ID, location, research context
 - Realistic verbal patterns: "eh," "nou ja...," self-correction, tangents, emotional moments
 - Mix of articulate and less articulate participants
 - Citizens of different ages (22-74), backgrounds, digital literacy, neighborhoods
@@ -1695,7 +1695,7 @@ graph TD
 
 **CLAUDE.md Layering**: Root (system-wide behavior) → Project (client context) → Phase (Double Diamond calibration). Each layer adds context without overriding the layer above.
 
-**Extensibility**: How to add new analysis protocols, new project types, new methodologies. The system is designed for KOOS to grow.
+**Extensibility**: How to add new analysis protocols, new project types, new methodologies. The system is designed for Koos to grow.
 
 Target length: ~1000-1500 words.
 

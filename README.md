@@ -1,11 +1,11 @@
-# KOOS Research Analysis System
+# Koos Research Analysis System
 
 > **Note:** This is a sample/demo repository. Everything in it is AI-generated for demonstration purposes only.
 >
-> - **Agency context** (company background, methodologies, brand guidelines, ethics framework, sector notes, impact metrics) was generated from publicly available information. It approximates KOOS's real practice but is not officially sanctioned, verified, or maintained by KOOS.
+> - **Agency context** (company background, methodologies, brand guidelines, ethics framework, sector notes, impact metrics) was generated from publicly available information. It approximates Koos's real practice but is not officially sanctioned, verified, or maintained by Koos.
 > - **Client projects, interview transcripts, participants, quotes, and analysis outputs** are entirely fictional. No real client data, real participants, or real research findings appear anywhere in this repo.
 >
-> Treat this repo as an illustrative scaffold, not as authoritative KOOS documentation.
+> Treat this repo as an illustrative scaffold, not as authoritative Koos documentation.
 
 ## The Problem You Already Know
 
@@ -23,11 +23,11 @@ Imagine your most rigorous researcher's methodology -- their systematic approach
 
 This is not about replacing your researchers. It is about giving them a system that handles the systematic grunt work at a level of thoroughness they would never have time for. Twenty independent analysis passes over the same data. Automatic cross-referencing of every finding against every transcript. Confidence levels on every insight. Quote verification on every claim.
 
-Your researchers get freed up for the work that actually requires human judgment: interpretation, creative synthesis, strategic framing, and the kind of empathetic pattern recognition that makes KOOS's research valuable in the first place.
+Your researchers get freed up for the work that actually requires human judgment: interpretation, creative synthesis, strategic framing, and the kind of empathetic pattern recognition that makes Koos's research valuable in the first place.
 
 ## How It Works
 
-This repository encodes KOOS's research methodologies, quality standards, tone of voice, and ethical guidelines into a structured knowledge base. When connected to Claude Desktop or Claude Code, Claude becomes a KOOS research analyst -- one that follows your methodology, speaks in your voice, and applies your standards consistently.
+This repository encodes Koos's research methodologies, quality standards, tone of voice, and ethical guidelines into a structured knowledge base. When connected to Claude Desktop or Claude Code, Claude becomes a Koos research analyst -- one that follows your methodology, speaks in your voice, and applies your standards consistently.
 
 Four analysis types are available as slash commands:
 
@@ -90,4 +90,4 @@ Each project contains client briefs, desk research, stakeholder notes, and ten i
 
 ---
 
-This system does not change how KOOS thinks about research. It encodes how KOOS already thinks -- and makes that thinking consistent, traceable, and available to everyone on the team, every time.
+This system does not change how Koos thinks about research. It encodes how Koos already thinks -- and makes that thinking consistent, traceable, and available to everyone on the team, every time.

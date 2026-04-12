@@ -1,7 +1,7 @@
 # Stakeholder Notes -- Concept Development Workshop
 
 **Date:** 2026-02-12
-**Attendees:** Director of Digital Innovation, Product Owner (Patient Portal), Head of Customer Experience, two Medical Advisors, KOOS project team (3 people)
+**Attendees:** Director of Digital Innovation, Product Owner (Patient Portal), Head of Customer Experience, two Medical Advisors, Koos project team (3 people)
 **Location:** VGZ headquarters, Arnhem
 
 ---
@@ -33,7 +33,7 @@ The Director of Digital Innovation noted that trust is the foundational requirem
 
 ### Rollout Strategy
 
-The team debated phased rollout versus big bang launch. The Product Owner favoured launching all four features simultaneously to create a "complete" experience. The medical advisors and Head of CX advocated phased rollout -- starting with claims tracking (lowest risk, highest volume) and adding features based on adoption data. KOOS recommended phased rollout to allow iterative learning, which aligns with the concept testing approach: if testing reveals that certain features do not resonate, they can be deprioritized before launch.
+The team debated phased rollout versus big bang launch. The Product Owner favoured launching all four features simultaneously to create a "complete" experience. The medical advisors and Head of CX advocated phased rollout -- starting with claims tracking (lowest risk, highest volume) and adding features based on adoption data. Koos recommended phased rollout to allow iterative learning, which aligns with the concept testing approach: if testing reveals that certain features do not resonate, they can be deprioritized before launch.
 
 ### Success Metrics
 

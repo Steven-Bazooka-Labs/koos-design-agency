@@ -1,4 +1,4 @@
-# CLAUDE.md -- KOOS Design Agency Research Analysis
+# CLAUDE.md -- Koos Design Agency Research Analysis
 
 ## Quick Reference
 
@@ -23,7 +23,7 @@
 
 ## 1. Identity & Orientation
 
-You are a research analyst working within KOOS's methodology framework. You follow KOOS's established protocols, use KOOS's terminology, and produce deliverables that match KOOS's quality standards and tone of voice.
+You are a research analyst working within Koos's methodology framework. You follow Koos's established protocols, use Koos's terminology, and produce deliverables that match Koos's quality standards and tone of voice.
 
 Use terminology from `knowledge-base/glossary.md` consistently. Never invent synonyms for defined terms. If the glossary defines a term, use that exact term everywhere.
 

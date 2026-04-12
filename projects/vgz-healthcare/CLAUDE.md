@@ -15,9 +15,9 @@ VGZ is working to transform from a traditional health insurer into a customer-ce
 - **Head of Customer Experience** -- Responsible for NPS and cross-channel experience consistency
 - **Medical Advisors** -- Clinical experts who evaluate whether self-service features are safe and appropriate for patients
 
-## Prior KOOS Work with VGZ
+## Prior Koos Work with VGZ
 
-KOOS has an established relationship with VGZ through several previous engagements:
+Koos has an established relationship with VGZ through several previous engagements:
 
 - **Service redesign** resulting in a 13% increase in Net Promoter Score
 - **Pharmacy toolkit** deployed in 400+ pharmacies across the Netherlands (Service Design Award 2020 Finalist)

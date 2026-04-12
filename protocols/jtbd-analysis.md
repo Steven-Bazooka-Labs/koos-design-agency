@@ -49,7 +49,7 @@ Dispatch each agent with the following instruction:
 
 > "You are obvious-agent-[N] (where N is 1-5). Read all transcripts provided. Extract every job to be done that participants directly and explicitly articulate. These are jobs participants can name and describe themselves.
 >
-> For each job, use the KOOS JTBD format: 'When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit].'
+> For each job, use the Koos JTBD format: 'When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit].'
 >
 > For each job you extract:
 > - Write the full job statement in the format above.
@@ -76,7 +76,7 @@ Dispatch each agent with the following instruction:
 > - **Behaviors revealing unstated objectives:** When a participant describes what they actually do (as opposed to what the system expects them to do), ask: what underlying job does this behavior serve?
 > - **Repeated checking or monitoring:** When a participant describes checking something repeatedly, ask: what job is the monitoring serving? What uncertainty are they trying to resolve?
 >
-> For each job, use the KOOS JTBD format: 'When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit].'
+> For each job, use the Koos JTBD format: 'When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit].'
 >
 > For each job you extract:
 > - Write the full job statement.
@@ -102,7 +102,7 @@ Dispatch each agent with the following instruction:
 > - **Pride and satisfaction:** Moments where participants describe feeling good about an interaction or outcome. What emotional or social job was fulfilled?
 > - **Avoidance behaviors:** When participants describe going out of their way to avoid a situation, ask: what negative emotional or social outcome are they trying to prevent?
 >
-> For each job, use the KOOS JTBD format: 'When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit].'
+> For each job, use the Koos JTBD format: 'When [situation/trigger], I want to [motivation/desired progress], so I can [expected outcome/benefit].'
 >
 > For each job you extract:
 > - Write the full job statement.
@@ -303,7 +303,7 @@ Produce the final deliverable following the template at `templates/output-format
 ### Step 5.1: Compile verified findings
 
 Assemble the final list of findings from the verified, post-audit convergence matrix. Organize by confidence tier (High, Medium, Low). For each finding, include:
-- Job statement in KOOS format
+- Job statement in Koos format
 - Job type (Functional, Emotional, Social)
 - Confidence score (X/20 runs)
 - Lens breakdown

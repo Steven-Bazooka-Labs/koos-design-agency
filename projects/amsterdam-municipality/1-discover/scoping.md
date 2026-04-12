@@ -77,7 +77,7 @@
 
 ## Additional Context
 
-This project builds on KOOS's prior relationship with the Municipality of Amsterdam. Previous work included inclusive digital services (Service Design Award 2020 Finalist) and teacher shortage reduction (18.7% to 12.2%). The municipality trusts KOOS and is genuinely open to wherever the evidence leads.
+This project builds on Koos's prior relationship with the Municipality of Amsterdam. Previous work included inclusive digital services (Service Design Award 2020 Finalist) and teacher shortage reduction (18.7% to 12.2%). The municipality trusts Koos and is genuinely open to wherever the evidence leads.
 
 Political context matters: municipal elections are in March 2027. The Wethouder (Alderman) for Digitalization needs both quick wins and a strategic roadmap. The research should surface opportunities at both levels -- immediate improvements and systemic changes.
 

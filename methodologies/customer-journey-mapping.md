@@ -4,7 +4,7 @@
 
 A customer journey map is a visual and narrative representation of a person's full experience over time as they try to achieve a goal or navigate a service. Unlike a process flow, which documents what a system does, a journey map documents what a person experiences -- their actions, thoughts, emotions, frustrations, and moments of satisfaction as they move through a sequence of interactions.
 
-At KOOS, journey maps capture several interrelated layers of experience:
+At Koos, journey maps capture several interrelated layers of experience:
 
 - **Touchpoints:** Every point of interaction between the person and the service, whether digital (website, app, email), physical (office, letter, signage), or human (phone call, face-to-face meeting, reception desk). Touchpoints are where experience actually happens.
 - **Actions:** What the person does at each stage -- the verbs of the experience. Searching, calling, waiting, filling out, asking, deciding, returning.
@@ -14,9 +14,9 @@ At KOOS, journey maps capture several interrelated layers of experience:
 - **Moments of truth:** The interactions that disproportionately shape the person's overall perception of the experience. These are the make-or-break moments where trust is built or broken, where satisfaction turns to loyalty or frustration turns to abandonment.
 - **Opportunities:** Design opportunities identified at specific points in the journey, grounded in the evidence of what people actually need at that moment.
 
-## Journey Map Structure at KOOS
+## Journey Map Structure at Koos
 
-KOOS journey maps follow a consistent structure that balances comprehensiveness with readability.
+Koos journey maps follow a consistent structure that balances comprehensiveness with readability.
 
 **Phases or stages** form the horizontal axis. These represent the major chapters of the experience from the person's perspective, not the organization's internal process stages. A healthcare journey might have phases like "Noticing something is wrong," "Seeking advice," "Getting assessed," "Waiting for results," "Understanding the plan," and "Following through." The language should reflect how people actually think about their experience.
 
@@ -36,23 +36,23 @@ KOOS journey maps follow a consistent structure that balances comprehensiveness 
 
 ## When to Use Journey Mapping
 
-Journey mapping is valuable at several points in the KOOS project process:
+Journey mapping is valuable at several points in the Koos project process:
 
 - **After JTBD and pains/gains analysis:** Journey mapping builds naturally on earlier synthesis work. Jobs to Be Done provide the motivational context for the journey. Pains and gains provide the experiential detail that populates each stage. The journey map integrates these into a temporal, sequential view.
 - **Define phase synthesis:** Journey maps are a primary synthesis artifact in the Define phase. They consolidate research findings into a format that reveals the overall shape of the experience, making systemic issues visible that might be hidden in individual findings.
 - **Develop phase concept mapping:** When developing service concepts, journey maps provide a scaffold. Teams can map proposed interventions onto the journey, checking that concepts address real pain points and support people at moments of truth.
 - **Deliver phase evaluation:** In evaluative research, journey maps can be used to compare the intended experience with the actual experience, revealing gaps between design intent and lived reality.
 
-## How KOOS Applies Journey Mapping
+## How Koos Applies Journey Mapping
 
-**Evidence-based, always.** Every element on a KOOS journey map must be backed by transcript data, observation notes, or other primary evidence. We do not populate journey maps from stakeholder assumptions or internal process documentation. If a stage or touchpoint lacks evidence, it is either omitted or explicitly marked as a hypothesis. The evidence chain is maintained through annotations or a companion document that links map elements to source data.
+**Evidence-based, always.** Every element on a Koos journey map must be backed by transcript data, observation notes, or other primary evidence. We do not populate journey maps from stakeholder assumptions or internal process documentation. If a stage or touchpoint lacks evidence, it is either omitted or explicitly marked as a hypothesis. The evidence chain is maintained through annotations or a companion document that links map elements to source data.
 
 **Multi-stakeholder awareness.** Most services involve multiple actors -- the primary user, family members, frontline staff, specialists, administrators. A journey map focused on one person's experience should acknowledge where other stakeholders' actions or experiences intersect. Where budget and scope allow, we create companion journey maps for key stakeholder groups to reveal how their experiences interact and where misalignments create friction.
 
-**Moments of truth as focal points.** Not every touchpoint warrants equal design investment. KOOS journey maps explicitly identify moments of truth and treat them as the primary focal points for design effort. These are identified through convergent evidence: multiple participants describing the same interaction as pivotal, strong emotional language, behavioral consequences (abandonment, complaint, advocacy).
+**Moments of truth as focal points.** Not every touchpoint warrants equal design investment. Koos journey maps explicitly identify moments of truth and treat them as the primary focal points for design effort. These are identified through convergent evidence: multiple participants describing the same interaction as pivotal, strong emotional language, behavioral consequences (abandonment, complaint, advocacy).
 
-**The journey starts when the need arises, not at first contact.** A common mapping error is to begin the journey at the point where the person first interacts with the organization. But the experience begins earlier -- when the person first notices a need, starts searching for options, or asks someone for advice. These pre-contact stages shape expectations, emotional state, and decision-making. KOOS journey maps always include what happens before the person reaches the service.
+**The journey starts when the need arises, not at first contact.** A common mapping error is to begin the journey at the point where the person first interacts with the organization. But the experience begins earlier -- when the person first notices a need, starts searching for options, or asks someone for advice. These pre-contact stages shape expectations, emotional state, and decision-making. Koos journey maps always include what happens before the person reaches the service.
 
 **Include after-service stages.** Similarly, the journey does not end at the final transaction or handoff. What happens after -- the follow-up, the consequences, the person's reflection on the experience -- matters for satisfaction, trust, and future behavior. We map the experience through to its natural conclusion in the person's life, not the organization's process.
 
-**Map what actually happens, not what is supposed to happen.** Process documentation tells us the designed path. Journey maps tell us the lived path. These frequently diverge. People skip steps, find workarounds, encounter exceptions that the process does not account for, or experience the steps in a different emotional register than the designers intended. KOOS journey maps reflect reality as reported and observed by participants, including the detours, backtracks, and dead ends.
+**Map what actually happens, not what is supposed to happen.** Process documentation tells us the designed path. Journey maps tell us the lived path. These frequently diverge. People skip steps, find workarounds, encounter exceptions that the process does not account for, or experience the steps in a different emotional register than the designers intended. Koos journey maps reflect reality as reported and observed by participants, including the detours, backtracks, and dead ends.

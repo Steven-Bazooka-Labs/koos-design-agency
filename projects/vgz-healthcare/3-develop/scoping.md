@@ -12,8 +12,8 @@
 | Research Type   | Evaluative                                         |
 | Start Date      | 2026-03-16                                         |
 | End Date        | 2026-04-24                                         |
-| Lead Analyst    | KOOS Research Team                                 |
-| Supporting Team | KOOS Service Design, KOOS UX                       |
+| Lead Analyst    | Koos Research Team                                 |
+| Supporting Team | Koos Service Design, Koos UX                       |
 
 ---
 
@@ -64,7 +64,7 @@ Participants are shown the clickable Figma prototype in a semi-structured interv
 - **Recruitment bias:** All participants are existing VGZ customers. People who left VGZ or chose a competitor are not represented -- their reasons for leaving may be relevant.
 - **Prototype limitations:** The prototype is clickable but not functional. Participants are reacting to a simulated experience, not a working product. Data shown in the prototype is fictional, which may affect perceptions of usefulness and trust.
 - **Language:** All interviews are conducted in Dutch. Non-Dutch-speaking policyholders are not represented.
-- **Moderator influence:** Two KOOS researchers moderate all sessions, introducing consistent framing. Prototype demonstration order is fixed (claims, medication, provider finder, referral), which may create an order effect.
+- **Moderator influence:** Two Koos researchers moderate all sessions, introducing consistent framing. Prototype demonstration order is fixed (claims, medication, provider finder, referral), which may create an order effect.
 - **Sample size:** 10 participants -- sufficient for qualitative pattern identification, not for quantitative generalisation.
 
 ---
@@ -84,6 +84,6 @@ This concept testing phase builds directly on two completed phases. The Discover
 
 VGZ stakeholders have differing views on rollout strategy. The Product Owner favours launching all four features simultaneously, while medical advisors and the Head of Customer Experience prefer a phased approach starting with claims tracking. Concept testing findings should provide evidence to inform this decision.
 
-Prior KOOS work with VGZ (13% NPS increase, pharmacy toolkit in 400+ pharmacies) gives the team credibility and existing domain knowledge. This is not a cold-start engagement -- there is institutional context and trust to build on.
+Prior Koos work with VGZ (13% NPS increase, pharmacy toolkit in 400+ pharmacies) gives the team credibility and existing domain knowledge. This is not a cold-start engagement -- there is institutional context and trust to build on.
 
 The medication management feature is the highest-risk element. Medical advisors have flagged concerns about patient self-management, data accuracy, and liability. Pay close attention to how participants respond to this feature, particularly those managing chronic conditions with multiple prescriptions.

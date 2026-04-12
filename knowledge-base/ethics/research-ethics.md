@@ -1,6 +1,6 @@
 # Research Ethics Guidelines
 
-These guidelines govern how KOOS handles qualitative and quantitative research data. They apply to all AI-assisted analysis, synthesis, and reporting of research involving human participants.
+These guidelines govern how Koos handles qualitative and quantitative research data. They apply to all AI-assisted analysis, synthesis, and reporting of research involving human participants.
 
 ---
 

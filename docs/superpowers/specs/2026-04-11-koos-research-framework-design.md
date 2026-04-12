@@ -1,16 +1,16 @@
-# KOOS AI-Augmented Research Analysis Framework — Design Spec
+# Koos AI-Augmented Research Analysis Framework — Design Spec
 
 ## Context
 
-**Client:** KOOS design agency (koos.agency) — ~40 person service design, UX, and human-centered AI agency. Offices in Amsterdam and Abu Dhabi. B Corp certified. 15-year track record. Clients include Careem, Siemens, VW, NS, Philips, OLX, ING, Amsterdam Municipality, VGZ, KLM, Randstad, Rijkswaterstaat.
+**Client:** Koos design agency (koos.agency) — ~40 person service design, UX, and human-centered AI agency. Offices in Amsterdam and Abu Dhabi. B Corp certified. 15-year track record. Clients include Careem, Siemens, VW, NS, Philips, OLX, ING, Amsterdam Municipality, VGZ, KLM, Randstad, Rijkswaterstaat.
 
 **Builder:** Bazooka Labs (bazookalabs.nl) — custom software house specializing in AI.
 
-**Purpose:** A proof-of-concept demo repo that shows KOOS how AI can standardize their research analysis workflows. The demo should sell a full engagement where Bazooka Labs builds the production version.
+**Purpose:** A proof-of-concept demo repo that shows Koos how AI can standardize their research analysis workflows. The demo should sell a full engagement where Bazooka Labs builds the production version.
 
-**The problem:** KOOS's designers are all using AI in their own ways — different tools, different prompts, different quality bars. Research analysis (transcript analysis, insight extraction, persona building) is time-intensive, inconsistent across team members, and hard to quality-control. There is no standardized methodology encoded anywhere.
+**The problem:** Koos's designers are all using AI in their own ways — different tools, different prompts, different quality bars. Research analysis (transcript analysis, insight extraction, persona building) is time-intensive, inconsistent across team members, and hard to quality-control. There is no standardized methodology encoded anywhere.
 
-**The solution:** A git repo that encodes KOOS's methodologies, quality standards, tone of voice, and analysis protocols. Designers connect it to Claude Desktop as a knowledge base. When they need to analyze research, Claude follows KOOS's own protocols — running multi-agent pipelines with built-in evidence verification and quality control.
+**The solution:** A git repo that encodes Koos's methodologies, quality standards, tone of voice, and analysis protocols. Designers connect it to Claude Desktop as a knowledge base. When they need to analyze research, Claude follows Koos's own protocols — running multi-agent pipelines with built-in evidence verification and quality control.
 
 **Demo audience:** The CEO + 2-3 senior designers/researchers. They'll receive the repo in advance and walk through it together with Bazooka Labs. The CEO needs to see business value; the senior designers need to feel the methodology is rigorous.
 
@@ -25,7 +25,7 @@
 
 ## Approach
 
-Pure markdown + CLAUDE.md files (Approach A). Everything lives in `.md` files. No MCP servers, no external tooling, no dependencies. Works immediately when connected to Claude Desktop. The repo IS the product — transparent, auditable, versionable, and extensible by KOOS.
+Pure markdown + CLAUDE.md files (Approach A). Everything lives in `.md` files. No MCP servers, no external tooling, no dependencies. Works immediately when connected to Claude Desktop. The repo IS the product — transparent, auditable, versionable, and extensible by Koos.
 
 Stretch goal: add Claude Code slash commands (`.claude/commands/`) for the most polished pipelines.
 
@@ -183,7 +183,7 @@ The front door to the repo. Structured to persuade, not just inform.
 
 ### Section 1: The Why — The Problem You're Living With
 
-Frame the pain KOOS is experiencing:
+Frame the pain Koos is experiencing:
 - Designers are talented researchers, but every one of them analyzes transcripts differently
 - Two designers analyzing the same interviews produce different insights — not because one is wrong, but because humans anchor on different things, get fatigued, and can't systematically cross-reference 10 transcripts
 - Analysis takes days. Quality is inconsistent. Knowledge leaves when people leave. There's no institutional methodology ensuring the same rigor every time.
@@ -222,7 +222,7 @@ The file that shapes all of Claude's behavior when connected to this repo.
 
 ### 1. Identity & Orientation
 
-- "You are a research analyst working within KOOS's methodology framework. You follow KOOS's established protocols, use KOOS's terminology, and produce deliverables that match KOOS's quality standards and tone of voice."
+- "You are a research analyst working within Koos's methodology framework. You follow Koos's established protocols, use Koos's terminology, and produce deliverables that match Koos's quality standards and tone of voice."
 - Points to `knowledge-base/` for company context, brand, glossary, ethics
 - Instructs Claude to always use glossary terms consistently
 
@@ -266,15 +266,15 @@ The file that shapes all of Claude's behavior when connected to this repo.
 
 ### 1. `knowledge-base/company/about-koos.md`
 
-Who KOOS is: ~40 people, B Corp certified, Amsterdam + Abu Dhabi, 15-year track record. Three pillars: Service Design, UX/UI Design, Human-Centered AI. Mission: "Your catalyst for change." Key client stats demonstrating scale and impact. Not a sales document — gives Claude context to calibrate tone and understand who it's working for.
+Who Koos is: ~40 people, B Corp certified, Amsterdam + Abu Dhabi, 15-year track record. Three pillars: Service Design, UX/UI Design, Human-Centered AI. Mission: "Your catalyst for change." Key client stats demonstrating scale and impact. Not a sales document — gives Claude context to calibrate tone and understand who it's working for.
 
 ### 2. `knowledge-base/company/sectors.md`
 
-The six sectors KOOS works in: Public Sector, Big Tech, Healthcare, Mobility, Finance, Energy. For each: typical problems KOOS solves, who the stakeholders are, domain sensitivities (healthcare = patient privacy, public sector = inclusivity and accessibility, finance = regulatory constraints). Helps Claude contextualize findings appropriately per domain.
+The six sectors Koos works in: Public Sector, Big Tech, Healthcare, Mobility, Finance, Energy. For each: typical problems Koos solves, who the stakeholders are, domain sensitivities (healthcare = patient privacy, public sector = inclusivity and accessibility, finance = regulatory constraints). Helps Claude contextualize findings appropriately per domain.
 
 ### 3. `knowledge-base/brand/tone-of-voice.md`
 
-How KOOS writes and speaks:
+How Koos writes and speaks:
 - Professional but warm, not corporate
 - Evidence-driven, never speculative without flagging it
 - Clear and visual — structured layouts and concrete examples over walls of text
@@ -284,7 +284,7 @@ How KOOS writes and speaks:
 
 ### 4. `knowledge-base/brand/deliverable-standards.md`
 
-What a KOOS deliverable looks like:
+What a Koos deliverable looks like:
 - Executive summary, structured findings, evidence base, recommended next steps
 - Visual hierarchy: headings, tables, callout boxes over long paragraphs
 - Always include participant quotes
@@ -344,16 +344,16 @@ Three-axis prioritization:
 
 ## Methodologies (4 documents)
 
-These describe the frameworks themselves — what they are, when to use them, how KOOS applies them. They are reference material, not execution instructions (that's what protocols are for).
+These describe the frameworks themselves — what they are, when to use them, how Koos applies them. They are reference material, not execution instructions (that's what protocols are for).
 
 ### 1. `methodologies/jobs-to-be-done.md`
 
-Based on Christensen's JTBD framework, adapted for KOOS:
+Based on Christensen's JTBD framework, adapted for Koos:
 - What a JTBD is: the underlying progress a person is trying to make in a given circumstance
 - Three types: functional, emotional, social
 - The standard format: "When [situation], I want to [motivation], so I can [expected outcome]"
 - When to use: exploratory research, understanding unmet needs, reframing problems
-- KOOS-specific: emphasis on evidence-backed jobs, always tied to transcript quotes, always considering context
+- Koos-specific: emphasis on evidence-backed jobs, always tied to transcript quotes, always considering context
 
 ### 2. `methodologies/pains-and-gains.md`
 
@@ -361,11 +361,11 @@ Based on Osterwalder's Value Proposition Canvas, adapted:
 - Pains: frustrations, obstacles, risks, undesired outcomes (functional, emotional, social)
 - Gains: desired outcomes, benefits, aspirations (required, expected, desired, unexpected)
 - When to use: concept testing, value proposition development, understanding current experience
-- KOOS-specific: always linked to specific touchpoints in the journey, always evidenced
+- Koos-specific: always linked to specific touchpoints in the journey, always evidenced
 
 ### 3. `methodologies/needs-based-personas.md`
 
-KOOS's approach to personas — built from needs, not demographics:
+Koos's approach to personas — built from needs, not demographics:
 - Why needs-based: two 35-year-old women can have completely different needs; two people of different ages can share the same need pattern
 - Built by clustering participants by need patterns, jobs, and pain/gain profiles
 - Each persona: archetype name, need pattern description, key jobs, pains, gains, representative quotes, behavioral indicators
@@ -376,7 +376,7 @@ KOOS's approach to personas — built from needs, not demographics:
 - What a journey map captures: touchpoints, actions, emotional arc, pain points, moments of truth, opportunities
 - Multi-stakeholder awareness: the customer's journey intersects with organizational processes
 - When to use: visualizing the full experience, identifying improvement opportunities, aligning stakeholders
-- KOOS-specific: evidence-based (every touchpoint and emotion backed by transcript data), moments of truth as focal points
+- Koos-specific: evidence-based (every touchpoint and emotion backed by transcript data), moments of truth as focal points
 
 ---
 
@@ -655,7 +655,7 @@ Phases without active research contain only the CLAUDE.md (and placeholder direc
 Each transcript:
 - ~2,000-3,000 words
 - In Dutch (VGZ and Amsterdam projects are Dutch participants; NS includes mix but primary language is Dutch)
-- Interview metadata header: date, duration (~45-60 min), interviewer name (fictional KOOS employee), participant ID, location, research context
+- Interview metadata header: date, duration (~45-60 min), interviewer name (fictional Koos employee), participant ID, location, research context
 - Verbatim conversational style: interviewer questions and participant responses
 - Realistic verbal patterns: hesitation ("eh," "nou ja..."), self-correction, tangents steered back by interviewer, emotional moments, contradictions within same participant
 - Mix of articulate and less articulate participants

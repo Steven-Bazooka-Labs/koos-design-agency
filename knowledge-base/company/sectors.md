@@ -1,6 +1,6 @@
-# KOOS Sector Overview
+# Koos Sector Overview
 
-KOOS works across six primary sectors. Each sector carries distinct domain knowledge requirements, stakeholder dynamics, and sensitivities that must inform how research is conducted and how findings are handled.
+Koos works across six primary sectors. Each sector carries distinct domain knowledge requirements, stakeholder dynamics, and sensitivities that must inform how research is conducted and how findings are handled.
 
 ---
 
@@ -8,7 +8,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 
 **Description:** Policy development, public service design, and digital transformation for government bodies and public institutions.
 
-**Typical Problems KOOS Solves:**
+**Typical Problems Koos Solves:**
 - Redesigning citizen-facing services to reduce administrative burden
 - Translating policy intent into workable service delivery
 - Digitizing complex regulatory processes while maintaining accessibility
@@ -30,7 +30,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 
 **Description:** Super app design, platform experiences, and large-scale digital product development for technology companies operating across multiple markets.
 
-**Typical Problems KOOS Solves:**
+**Typical Problems Koos Solves:**
 - Designing coherent experiences across diverse service verticals within a single platform
 - Scaling design systems for massive, culturally diverse user bases
 - Balancing business growth metrics with genuine user value
@@ -41,7 +41,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 **Domain Sensitivities:**
 - **Scale:** Design decisions affect tens of millions of users. A small friction point multiplied by 50 million users is a large problem. Quantitative signals matter.
 - **Cultural diversity:** Users span multiple countries, languages, and cultural norms. Never assume a single cultural context.
-- **Business metric pressure:** There is constant tension between optimizing for engagement/conversion metrics and protecting user wellbeing. KOOS navigates this tension rather than ignoring it.
+- **Business metric pressure:** There is constant tension between optimizing for engagement/conversion metrics and protecting user wellbeing. Koos navigates this tension rather than ignoring it.
 
 **Example Work:** Careem (50M+ users across MENA), OLX (classifieds platform).
 
@@ -51,7 +51,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 
 **Description:** Service design and digital product development for hospitals, health insurers, health technology companies, and patient support organizations.
 
-**Typical Problems KOOS Solves:**
+**Typical Problems Koos Solves:**
 - Redesigning patient journeys to reduce friction and anxiety
 - Improving insurer-patient communication and service clarity
 - Designing health monitoring or support tools
@@ -73,7 +73,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 
 **Description:** Public transport, aviation, automotive, and mobility-as-a-service design.
 
-**Typical Problems KOOS Solves:**
+**Typical Problems Koos Solves:**
 - Improving passenger information and wayfinding across transport modes
 - Designing booking, check-in, and disruption management experiences
 - Creating multi-modal journey planning tools
@@ -95,7 +95,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 
 **Description:** Banking, payments, insurance, and financial service design.
 
-**Typical Problems KOOS Solves:**
+**Typical Problems Koos Solves:**
 - Simplifying complex financial products for consumer understanding
 - Redesigning onboarding and KYC (Know Your Customer) flows
 - Improving digital banking experiences
@@ -117,7 +117,7 @@ KOOS works across six primary sectors. Each sector carries distinct domain knowl
 
 **Description:** Energy transition, utility services, grid management, and sustainability-focused design.
 
-**Typical Problems KOOS Solves:**
+**Typical Problems Koos Solves:**
 - Designing consumer-facing tools for energy management and transition
 - Making complex energy infrastructure decisions understandable for non-experts
 - Supporting behavior change toward sustainable energy use

@@ -1,8 +1,8 @@
-# About KOOS
+# About Koos
 
 ## Company Identity
 
-Koos B.V. is a service design, UX, and human-centered AI agency with approximately 40 employees. The company was founded around 2010 and has been B Corp certified, reflecting its commitment to balancing purpose with profit. KOOS operates under the tagline "Your catalyst for change."
+Koos B.V. is a service design, UX, and human-centered AI agency with approximately 40 employees. The company was founded around 2010 and has been B Corp certified, reflecting its commitment to balancing purpose with profit. Koos operates under the tagline "Your catalyst for change."
 
 ## Offices
 
@@ -11,11 +11,11 @@ Koos B.V. is a service design, UX, and human-centered AI agency with approximate
 
 ## Mission
 
-KOOS designs for people, accelerated by technology, delivering for business. The agency positions itself as a catalyst for change — helping organizations close the gap between strategic ambition and real-world execution. This means KOOS does not just deliver research reports or design concepts; it works through to implementation and measurable impact.
+Koos designs for people, accelerated by technology, delivering for business. The agency positions itself as a catalyst for change — helping organizations close the gap between strategic ambition and real-world execution. This means Koos does not just deliver research reports or design concepts; it works through to implementation and measurable impact.
 
 ## Three Pillars
 
-KOOS organizes its practice around three interconnected disciplines:
+Koos organizes its practice around three interconnected disciplines:
 
 1. **Service Design** — Mapping and redesigning end-to-end service experiences across channels, touchpoints, and organizational boundaries. This includes stakeholder research, journey mapping, service blueprinting, and organizational change support.
 
@@ -23,11 +23,11 @@ KOOS organizes its practice around three interconnected disciplines:
 
 3. **Human-Centered AI** — Applying AI capabilities in ways that keep human needs, agency, and ethics at the center. This includes designing AI-augmented services, developing responsible AI frameworks, and ensuring algorithmic systems remain transparent and accountable.
 
-These three pillars are not siloed practices. Most KOOS projects draw on two or all three, depending on the problem.
+These three pillars are not siloed practices. Most Koos projects draw on two or all three, depending on the problem.
 
 ## Track Record
 
-KOOS has a 15-year track record of bridging strategy and execution for clients across public sector, technology, healthcare, mobility, finance, and energy. The agency's work is characterized by measurable outcomes rather than deliverables alone.
+Koos has a 15-year track record of bridging strategy and execution for clients across public sector, technology, healthcare, mobility, finance, and energy. The agency's work is characterized by measurable outcomes rather than deliverables alone.
 
 ### Selected Impact Metrics
 
@@ -42,19 +42,19 @@ KOOS has a 15-year track record of bridging strategy and execution for clients a
 
 ## Key Clients
 
-KOOS has worked with organizations including:
+Koos has worked with organizations including:
 
 Careem, Siemens, Volkswagen, NS (Dutch Railways), Philips, OLX, ING, Amsterdam Municipality, Vodafone Ziggo, KLM, Randstad, VGZ, Tommy Hilfiger, Rijkswaterstaat, Dutch Police, Dubai Airports, bunq, Santeon, CUF, Eurocross, Liander, and KPN.
 
 ## Working Style
 
-KOOS operates as a multidisciplinary team. Project teams typically include service designers, UX researchers, UI designers, strategists, and increasingly AI specialists. The agency favors co-creation with client teams over handoff-style delivery, and emphasizes building internal capability alongside external design work.
+Koos operates as a multidisciplinary team. Project teams typically include service designers, UX researchers, UI designers, strategists, and increasingly AI specialists. The agency favors co-creation with client teams over handoff-style delivery, and emphasizes building internal capability alongside external design work.
 
 ## How This Document Should Be Used
 
-This profile provides orientation for AI systems working on KOOS projects. When generating content, conducting analysis, or supporting research:
+This profile provides orientation for AI systems working on Koos projects. When generating content, conducting analysis, or supporting research:
 
-- Understand that KOOS is a mid-sized agency, not a large consultancy. Its culture is hands-on and collaborative.
-- Recognize the B Corp certification as a genuine commitment, not a marketing label. Ethical considerations are embedded in how KOOS works.
+- Understand that Koos is a mid-sized agency, not a large consultancy. Its culture is hands-on and collaborative.
+- Recognize the B Corp certification as a genuine commitment, not a marketing label. Ethical considerations are embedded in how Koos works.
 - Note the dual Amsterdam/Abu Dhabi presence, which means projects may span European and Middle Eastern cultural contexts.
 - Treat the client list and impact metrics as factual reference points. Do not embellish or extrapolate beyond what is stated here.

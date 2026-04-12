@@ -2,7 +2,7 @@
 
 ## Meeting: Kick-off Alignment -- Multimodal Journey Planner Evaluation
 ## Date: 2026-03-18
-## Attendees: Product Owner (NS App), Head of Customer Experience, Journey Management Lead, Engineering Lead, KOOS Research Lead, KOOS Project Lead
+## Attendees: Product Owner (NS App), Head of Customer Experience, Journey Management Lead, Engineering Lead, Koos Research Lead, Koos Project Lead
 
 ---
 
@@ -22,4 +22,4 @@ The group agreed to research a mix of passenger types: daily commuters, occasion
 
 ## Underlying Tension
 
-There is a visible tension between "celebrate the launch" (Marketing's priority) and "find out what's wrong" (Product and CX's priority). The KOOS team clarified its role: the research will be honest and evidence-based. If the planner works well, the evidence will show that. If there are problems, those need to surface now before a wider rollout. Both the Product Owner and Head of CX endorsed this framing. Marketing accepted it, but noted they still need usable material for the annual report.
+There is a visible tension between "celebrate the launch" (Marketing's priority) and "find out what's wrong" (Product and CX's priority). The Koos team clarified its role: the research will be honest and evidence-based. If the planner works well, the evidence will show that. If there are problems, those need to surface now before a wider rollout. Both the Product Owner and Head of CX endorsed this framing. Marketing accepted it, but noted they still need usable material for the annual report.

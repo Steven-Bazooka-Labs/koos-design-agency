@@ -2,7 +2,7 @@
 
 ## Date: 2026-03-16
 ## Location: Stopera (Amsterdam City Hall), Room 4.12
-## Present: Wethouder Karim El Idrissi (Alderman for Digitalization), Marieke de Vries (Head of Citizen Services), Tom Bakker (Digital Team Lead), Sandra Okonkwo (Senior Service Desk Coordinator), Jelle Reitsma & Lina Zhao (KOOS)
+## Present: Wethouder Karim El Idrissi (Alderman for Digitalization), Marieke de Vries (Head of Citizen Services), Tom Bakker (Digital Team Lead), Sandra Okonkwo (Senior Service Desk Coordinator), Jelle Reitsma & Lina Zhao (Koos)
 
 ---
 
@@ -34,8 +34,8 @@
 
 ## Action Items
 
-- KOOS to finalize research design and participant recruitment plan (week of 2026-03-23)
+- Koos to finalize research design and participant recruitment plan (week of 2026-03-23)
 - Municipality to provide access to citizen panel for recruitment
-- Sandra to connect KOOS with two community centers in Nieuw-West and Zuid-Oost for additional recruitment
+- Sandra to connect Koos with two community centers in Nieuw-West and Zuid-Oost for additional recruitment
 - Tom to share overview of current digital systems and channel usage data
 - Next check-in: 2026-04-06

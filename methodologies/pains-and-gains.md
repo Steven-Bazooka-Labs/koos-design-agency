@@ -2,7 +2,7 @@
 
 ## Origin and Purpose
 
-The Pains and Gains framework draws from Alexander Osterwalder's Value Proposition Canvas, which maps customer pains and gains against the pain relievers and gain creators a product or service offers. At KOOS, we use pains and gains as a structured way to catalogue the negative experiences people encounter and the positive outcomes they seek or value. While JTBD captures what people are trying to achieve, pains and gains capture the texture of their current experience -- what frustrates, hinders, worries, delights, or exceeds expectations along the way.
+The Pains and Gains framework draws from Alexander Osterwalder's Value Proposition Canvas, which maps customer pains and gains against the pain relievers and gain creators a product or service offers. At Koos, we use pains and gains as a structured way to catalogue the negative experiences people encounter and the positive outcomes they seek or value. While JTBD captures what people are trying to achieve, pains and gains capture the texture of their current experience -- what frustrates, hinders, worries, delights, or exceeds expectations along the way.
 
 Pains and gains are not abstract categories. They are specific, evidenced observations tied to real moments in a person's experience. They give design teams concrete material to work with: things to eliminate, reduce, create, or amplify.
 
@@ -37,11 +37,11 @@ Pains and gains analysis is applicable across multiple project activities:
 - **Value proposition design:** When defining or refining a service's value proposition, pains and gains are the raw material. A compelling value proposition addresses severe pains and creates meaningful gains for the people it serves.
 - **Complementing JTBD:** Pains and gains work naturally alongside Jobs to Be Done. JTBD tells us what progress people are trying to make; pains and gains tell us what they encounter along the way. Together, they provide a complete picture of motivation and experience.
 
-## How KOOS Applies Pains and Gains
+## How Koos Applies Pains and Gains
 
 **Always linked to specific touchpoints.** A pain or gain that floats in isolation is hard to act on. We tie each pain and gain to the moment, channel, or interaction where it occurs. "Anxiety about next steps" becomes actionable when we know it happens specifically after the initial assessment appointment, during the gap before a written report arrives.
 
-**Always evidenced.** Every pain and gain in a KOOS deliverable should be traceable to transcript data, observation notes, or other primary evidence. We note the participant IDs and relevant quotes that support each finding.
+**Always evidenced.** Every pain and gain in a Koos deliverable should be traceable to transcript data, observation notes, or other primary evidence. We note the participant IDs and relevant quotes that support each finding.
 
 **Severity matters.** Not all pains are equal. We assess and communicate relative severity -- a minor inconvenience is different from a barrier that causes people to abandon a process entirely. Similarly, gains vary in importance. We use participant language and behavioral evidence to gauge severity rather than imposing our own assumptions.
 

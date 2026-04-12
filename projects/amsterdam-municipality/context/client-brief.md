@@ -19,8 +19,8 @@ We want to improve citizen satisfaction with municipal services, but we do not w
 
 Amsterdam is one of Europe's most linguistically and culturally diverse cities. Over 180 nationalities are represented. A significant portion of our residents are first- or second-generation immigrants, and many interact with the municipality in their most vulnerable moments -- applying for social assistance, registering a birth, navigating permits for housing modifications. We have a political commitment to digital inclusion: "no one left behind" in the digital transition. This is not a slogan. It is a policy directive from the College van B&W (Board of Mayor and Aldermen).
 
-## What We Are Asking KOOS To Do
+## What We Are Asking Koos To Do
 
-We want KOOS to conduct exploratory research with citizens to understand their lived experience of municipal services. We are specifically interested in three service domains: permits (vergunningen), reporting public space issues (meldingen), and social services (sociale dienstverlening). We want to understand friction points, workarounds, emotional experiences, and unmet needs. We want to hear from citizens of diverse backgrounds -- age, digital literacy, language, neighborhood, and immigration background.
+We want Koos to conduct exploratory research with citizens to understand their lived experience of municipal services. We are specifically interested in three service domains: permits (vergunningen), reporting public space issues (meldingen), and social services (sociale dienstverlening). We want to understand friction points, workarounds, emotional experiences, and unmet needs. We want to hear from citizens of diverse backgrounds -- age, digital literacy, language, neighborhood, and immigration background.
 
 We are open to where the findings lead. We are not looking for validation of a predetermined solution. We want the evidence to guide our next steps.

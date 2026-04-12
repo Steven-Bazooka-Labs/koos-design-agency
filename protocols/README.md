@@ -4,7 +4,7 @@
 
 The files in this directory are execution protocols -- step-by-step instructions that Claude follows to run multi-agent analysis pipelines on qualitative research data. They are not methodology references (those live in `methodologies/`), not output templates (those live in `templates/output-formats/`), and not background knowledge (that lives in `knowledge-base/`). Protocols are operational playbooks. They tell Claude exactly what to do, in what order, with what inputs, and to what standard.
 
-Each protocol encodes one of KOOS's core research analysis methods as a reproducible, auditable pipeline. The goal is consistent analytical rigor across projects, regardless of who initiates the analysis.
+Each protocol encodes one of Koos's core research analysis methods as a reproducible, auditable pipeline. The goal is consistent analytical rigor across projects, regardless of who initiates the analysis.
 
 ## Two Execution Modes
 
