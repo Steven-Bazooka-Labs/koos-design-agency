@@ -1,5 +1,12 @@
 # KOOS Research Analysis System
 
+> **Note:** This is a sample/demo repository. Everything in it is AI-generated for demonstration purposes only.
+>
+> - **Agency context** (company background, methodologies, brand guidelines, ethics framework, sector notes, impact metrics) was generated from publicly available information. It approximates KOOS's real practice but is not officially sanctioned, verified, or maintained by KOOS.
+> - **Client projects, interview transcripts, participants, quotes, and analysis outputs** are entirely fictional. No real client data, real participants, or real research findings appear anywhere in this repo.
+>
+> Treat this repo as an illustrative scaffold, not as authoritative KOOS documentation.
+
 ## The Problem You Already Know
 
 Your designers are talented researchers. They conduct thoughtful interviews, build genuine rapport with participants, and care deeply about getting it right. But when ten transcripts land on someone's desk, what happens next is different every time.
@@ -79,7 +86,7 @@ The repo includes three complete project setups with transcripts ready for analy
 - **NS Railways** (`projects/ns-railways/`) -- rail travel passenger experience research
 - **Amsterdam Municipality** (`projects/amsterdam-municipality/`) -- municipal services resident experience research
 
-Each project contains client briefs, desk research, stakeholder notes, and ten interview transcripts. Pick any project and any analysis type to see the system in action.
+Each project contains client briefs, desk research, stakeholder notes, and ten interview transcripts. All of this material -- including every participant, quote, and scenario -- is synthetic and generated for demonstration only. Pick any project and any analysis type to see the system in action.
 
 ---
 
