@@ -21,7 +21,7 @@ The decision that matters most: **the steward(s)** — the git-comfortable peopl
 ## The two things we put on the table before anything runs live
 
 - **Money:** Bazooka effort is an estimated **[10–14 h] for Phase 0** and **[16–22 h] for the pilot** [rates and totals in the accompanying engagement note]; your internal cost is **~25–40 hours**, mostly steward time, plus pilot Claude seats. **If Week 3 says stop, that's the whole exposure — and the working toolkit, repo and guides are yours regardless.**
-- **Client data:** a **Phase-0 data gate** before any live document goes through a tool — Koos-owned Claude workspace on commercial terms, the data-processing agreement, a sweep of pilot clients' contracts for AI clauses, and one legal-approved sentence everyone can say when a client asks. Pilot metrics are aggregated and self-reported only; the works council is informed before any scale-out.
+- **Client data:** a **Phase-0 data gate** before any live document goes through a tool — Koos-owned Claude workspace on commercial terms, the data-processing agreement, a sweep of pilot clients' contracts for AI clauses, and one legal-approved sentence everyone can say when a client asks. Pilot metrics are aggregated and self-reported only — these are assistive tools, not monitoring — and the wider team is briefed before any agency-wide rollout.
 
 ## What we need from Koos to start (Phase 0 — the week after you confirm)
 

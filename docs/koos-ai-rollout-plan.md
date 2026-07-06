@@ -75,7 +75,7 @@ Everything runs the production way from the first day: installed plugin, real pr
 ### Phase 2 — Expand (after the pilot review)
 
 - Onboard the next wave with the same guides (repeatable without Bazooka in the room); pick the scale-out mechanism — onboarding script, shared project settings, or settings IT deploys centrally to every Mac ("managed settings") — options in `docs/setup-guide.md`, Step 5.
-- **Brief the employee representation before this phase** (see §5).
+- **Brief the wider team before this phase** — what the toolkit is, what usage data exists (aggregated only; see §5).
 - Promote the next tools from the Build Week set, one release at a time. Candidates by evidence and readiness: **transcript-analyser**, **figma-token-checker** (its rules file already exists), **email-proposal**, **case-builder**. Integration-dependent tools (**pitch-builder**/Google Slides, **am-assistant**/HubSpot) only after their integrations are decided.
 - Add **sector guardrail modules** (healthcare first, given VGZ/Santeon-type work), loaded per client sector.
 
@@ -94,7 +94,7 @@ The honest mechanics: **running a tool sends the working files' content to Anthr
 3. **Client permission check.** A legal sweep of the pilot clients' MSAs/NDAs for AI/subprocessor clauses **before** their documents go through a tool. Where a contract doesn't permit it: that client's documents stay out of the pilot (or go through in redacted form).
 4. **The client-facing answer**, drafted for legal review, so every Koos person says the same thing when asked. Working draft: *"We use Claude (Anthropic) as a drafting assistant under a commercial agreement — client data is not used for model training and is handled per our data-processing agreement. A Koos professional reviews everything before it reaches you, and on request we exclude your project from AI-assisted work."* **[To be reviewed and owned by Koos legal.]**
 
-**Employee representation / AVG note.** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on machines; pilot participation is voluntary. That design keeps the pilot outside "monitoring" territory on purpose: tooling capable of tracking behaviour or performance triggers a works-council **consent** right at 50+ employees (WOR art. 27); at Koos's ~40 people the lighter PVT/staff-meeting regime applies (WOR arts. 35b/35c), with narrower formal rights. We still **brief the PVT — or the staff meeting, or the OR if Koos has voluntarily instituted one — before the Phase-2 scale-out**. Cheaper to raise in week 0 than to discover in week 6.
+**The employee side.** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on anyone's machine — and pilot participation is voluntary. That's deliberate: these are assistive tools, not monitoring, and the design keeps it that way. Before the Phase-2 scale-out, **brief the wider team** on what the toolkit is and what usage data exists (through whatever employee-representation form Koos has, or simply the staff meeting) — a five-minute courtesy that prevents rumours.
 
 ---
 
@@ -211,7 +211,7 @@ These are criteria the pilot can *fail*. That's deliberate: if the value case is
 | **Feedback loop goes quiet** | The classic failure of shared libraries | Two-sentence bar; steward closes the loop visibly (what shipped, who flagged it); explicit success criterion (§12.3) |
 | **Client data enters the canon** | Prevented by design | Only the steward writes to the canon; anonymisation gate on promotion; Build Week folders (which contain real client documents) are never copied wholesale |
 | **A tool output reaches a client unreviewed** | Process | Track A has a named reviewer before anything goes out; designer-in-the-lead is in the guardrails and the onboarding framing |
-| **Compliance surprise (client contracts, OR)** | Addressed up front | The §5 gate runs before live documents; OR informed before scale-out |
+| **Compliance surprise (client contracts)** | Addressed up front | The §5 gate runs before live documents; the team briefing precedes scale-out |
 
 ---
 
