@@ -6,7 +6,7 @@
 
 - **The toolkit is built (v0.3).** The three tools we agreed on — **Contract Checker**, **Survey Builder**, **Design Token Generator** — are done, rule files included, running on real Koos content: your brand voice, your company profile, your contract baseline.
 - **Updates work.** Designers install once (two commands). After that, improvements ship as versions and arrive with a restart — we've tested the whole loop.
-- **The feedback loop is already running**, seeded with RJ's Build Week notes — including two small T&C fixes for your legal team that the Contract Checker caught.
+- **The feedback loop is already running**, filled with RJ's Build Week notes — including two small T&C fixes for your legal team that the Contract Checker caught.
 - **Four guides ship with the repo:** setup, designer onboarding, the steward handbook, and how updates reach everyone.
 
 ## The pilot: 3 weeks, on live work
@@ -16,12 +16,12 @@
 
 Week 1: onboard, and confirm auto-update on your machines. Week 2: use it — at least one improvement ships mid-pilot. Week 3: measure against the criteria we agree at kickoff, then decide together: expand, adjust, or stop.
 
-The decision that matters most: **the steward** — the git-comfortable person who owns the **canon** (the shared, versioned home of the tools and the Koos knowledge), triages feedback, and ships releases. Name two, at 2–4 hours a week each during the pilot. We set them up and coach their first releases.
+The decision that matters most: **the steward** — the git-comfortable person who owns the **canon** (the shared repo with the tools and the Koos knowledge), sorts the feedback, and ships the updates. Name two, 2–4 hours a week each during the pilot. We set them up and coach their first releases.
 
 ## Money and data, up front
 
 - **Money:** our effort is an estimated **[10–14 h] for Phase 0** and **[16–22 h] for the pilot** — rates and totals in the engagement note. Your side: **~25–40 hours** internally, mostly steward time, plus pilot Claude seats. If Week 3 says stop, that's the whole exposure — and the toolkit, repo and guides are yours regardless.
-- **Client data:** before any live document goes through a tool: a Koos-owned Claude workspace on commercial terms, the data-processing agreement reviewed, your pilot clients' contracts checked for AI clauses, and one legal-approved sentence everyone can say when a client asks. Pilot metrics are aggregated and self-reported only, and the wider team is briefed before any agency-wide rollout.
+- **Client data:** before any live document goes through a tool: a Koos-owned Claude workspace on commercial terms, the data-processing agreement reviewed, your pilot clients' contracts checked for AI clauses, and one legal-approved sentence everyone can say when a client asks. Pilot numbers are self-reported totals — nothing tracked on anyone's machine — and the wider team hears about the toolkit before it goes agency-wide.
 
 ## What we need from you
 
@@ -37,6 +37,6 @@ The decision that matters most: **the steward** — the git-comfortable person w
 
 ## After the pilot
 
-The next wave of designers onboards with the same guides, and the remaining Build Week tools get promoted one release at a time — transcript analysis, token checking, proposals, case studies — plus sector guardrails, healthcare first. Lead-gen and AI-search visibility stay parked until their open questions (deliverability, GDPR, B-Corp fit) are answered.
+The next wave of designers onboards with the same guides, and the remaining Build Week tools get added one at a time — transcript analysis, token checking, proposals, case studies — plus sector guardrails, healthcare first. Lead-gen and AI-search visibility stay parked until their open questions (deliverability, GDPR, B-Corp fit) are answered.
 
 **Next step:** confirm the five items and we book the sessions.

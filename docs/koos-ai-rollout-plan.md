@@ -11,7 +11,7 @@ The June proof-of-concept did its job. What's ready today:
 | Asset | Status |
 |---|---|
 | **`koos-ai` repo** — the **canon** (the single Koos-owned source of truth for tools and knowledge) and the **plugin marketplace** (the mechanism Claude Code uses to install and update from it), in one | Built, private on GitHub (v0.3.1) |
-| **Three priority tools** as agreed: Contract Checker, Survey Builder, Design Token Generator | Complete — including the companion rule files (survey quality rules, survey structure guide, token naming standards), carried over intact from the Build Week originals |
+| **Three priority tools** as agreed: Contract Checker, Survey Builder, Design Token Generator | Complete — including the companion rule files (survey quality rules, survey structure guide, token naming standards), unchanged from the Build Week originals |
 | **Knowledge base** | Real Koos content: company profile, brand voice; plus a core guardrails draft (Koos review pending — see §4, Phase 0) |
 | **Feedback loop** | Live in the repo, seeded with RJ's real Build Week feedback — including two open actions for Koos legal (§7) |
 | **Operational guides** | Four docs shipped in the repo: setup, designer onboarding, steward guide, how-updates-work |
@@ -26,9 +26,9 @@ What is deliberately **not** in scope yet: the other Build Week tools (promoted 
 
 We start narrow and real. Two tracks, because the tools serve two different workflows:
 
-**Track A — Contracts (the depth test).** The Contract Checker runs where contracts actually live: new business (RJ built it for exactly that). Every incoming contract goes through it during the pilot. Anything the tool drafts goes out only after the commercial owner signs off — and legal, where your normal process requires it. Naming that reviewer is part of Phase 0.
+**Track A — Contracts.** The Contract Checker runs where contracts actually live: new business (RJ built it for exactly that). Every incoming contract goes through it during the pilot. Anything the tool drafts goes out only after the commercial owner signs off — and legal, where your normal process requires it. Naming that reviewer is part of Phase 0.
 
-**Track B — Design & research tools (the breadth test).** 2–3 designers use the Survey Builder and/or the Design Token Generator on live project work, as their projects actually need them. This is what tests the "shared toolkit for designers" story: install, use in a real project folder, feedback, updates.
+**Track B — Design & research tools.** 2–3 designers use the Survey Builder and/or the Design Token Generator on live project work, as their projects actually need them. This tests the "shared toolkit for designers" story: install, use in a real project folder, feedback, updates.
 
 Everything runs the production way from day one: installed plugin, real project folders, feedback loop, versioned updates. Build Week proved the tools are worth having; the pilot proves the shared way of running them.
 
@@ -52,12 +52,12 @@ Everything runs the production way from day one: installed plugin, real project 
 
 ## 4. Phased plan
 
-### Phase 0 — Foundation (the week after Koos confirms the §11 items; ~half a day of sessions)
+### Phase 0 — Foundation (the week after you confirm the §11 items; ~half a day of sessions)
 
-1. Koos creates (or names) its **GitHub organisation**; Bazooka stands up the private `koos-ai` repo there; the interim Bazooka-hosted copy retires.
-2. Koos names the **steward(s)**, the **Track A owner**, and the **pilot designers**; everyone gets repo access; the **#koos-ai** Slack channel is created.
+1. You create (or name) a Koos **GitHub organisation**; we set up the private `koos-ai` repo there; the interim Bazooka-hosted copy retires.
+2. You name the **steward(s)**, the **Track A owner**, and the **pilot designers**; everyone gets repo access; the **#koos-ai** Slack channel is created.
 3. **Data & compliance gate** — the four checks in §5, resolved before any live client document goes through a tool.
-4. **Guardrails working session (60–90 min, Bazooka + Koos research/practice leads).** The current core-guardrails file is a Bazooka draft. This is *not* a sign-off meeting: Koos's own research-ethics and anonymisation practice gets worked in, and Koos's edits become v1. (The full framework is ask #4 in §8.)
+4. **Guardrails working session (60–90 min, Bazooka + Koos research/practice leads).** The current core-guardrails file is a Bazooka draft. This is *not* a sign-off meeting: your research-ethics and anonymisation practice gets worked in, and your edits become v1. (The full framework is ask #4 in §8.)
 5. **Steward setup session (~2 h):** walk the repo, do the steward's first release together (a real small fix), verify install + GitHub auth on their machine.
 
 *Exit condition: the steward has shipped a version bump that another machine received via update — and the data gate is green.*
@@ -81,7 +81,7 @@ Everything runs the production way from day one: installed plugin, real project 
 
 ### Phase 3 — Steady state
 
-Steward rhythm on a fixed weekly slot; quarterly tool review (usage, staleness, retirement). Bazooka steps back to a support role. Any further build work (new tools, integrations, the parked workstreams in §10) happens as **separately scoped, capped sprints that Koos triggers**.
+Steward rhythm on a fixed weekly slot; quarterly tool review (usage, staleness, retirement). Bazooka steps back to a support role. Any further build work (new tools, integrations, the parked workstreams in §10) happens as **separately scoped, capped sprints that you trigger**.
 
 ---
 
@@ -89,12 +89,12 @@ Steward rhythm on a fixed weekly slot; quarterly tool review (usage, staleness, 
 
 Plainly: **running a tool sends the files you're working on to Anthropic's Claude API** — that's how Claude Code works. Installing uploads nothing, and nothing enters the shared repo un-anonymised. But "we put your contract through an AI" is a sentence you need to be able to finish confidently when a VGZ or Rijkswaterstaat asks. Four checks before any live client document goes through:
 
-1. **Account setup.** Pilot runs on a **Koos-owned Claude workspace under Anthropic's commercial terms** (business data not used for training; admin control) — not on personal accounts. Decide tier and seats; budget note in §6.
-2. **DPA & processing.** Review Anthropic's data-processing addendum (it's incorporated into the commercial terms); confirm retention settings and processing location as part of that review. *(Bazooka prepares the summary; Koos legal confirms.)*
+1. **Account setup.** The pilot runs on **your own Claude workspace under Anthropic's commercial terms** (business data not used for training; admin control) — not on personal accounts. Decide tier and seats; budget note in §6.
+2. **DPA & processing.** Review Anthropic's data-processing addendum (it's part of the commercial terms); confirm retention settings and processing location as part of that review. *(We prepare the summary; your legal confirms.)*
 3. **Client permission check.** A legal sweep of the pilot clients' MSAs/NDAs for AI/subprocessor clauses **before** their documents go through a tool. Where a contract doesn't permit it: that client's documents stay out of the pilot (or go through in redacted form).
 4. **The client-facing answer**, drafted for legal review, so every Koos person says the same thing when asked. Working draft: *"We use Claude (Anthropic) as a drafting assistant under a commercial agreement — client data is not used for model training and is handled per our data-processing agreement. A Koos professional reviews everything before it reaches you, and on request we exclude your project from AI-assisted work."* **[To be reviewed and owned by Koos legal.]**
 
-**The employee side.** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on anyone's machine — and pilot participation is voluntary. Before the Phase-2 scale-out, **brief the wider team** on what the toolkit is and what usage data exists.
+**The employee side.** Pilot numbers are self-reported totals — no per-person dashboards, nothing measured on anyone's machine — and joining the pilot is voluntary. Before going agency-wide, **tell the wider team** what the toolkit is and what usage data exists.
 
 ---
 
@@ -109,24 +109,22 @@ Plainly: **running a tool sends the files you're working on to Anthropic's Claud
 
 *Bracketed effort figures are Bazooka's estimates; rates and totals are in the engagement note that accompanies this plan.*
 
-**If the Week-3 verdict is "stop":** total exposure is the Phase 0–1 hours above, the internal time, and the pilot's Claude seats — and Koos keeps the working toolkit: repo, tools, guides, feedback loop (§9).
+**If the Week-3 verdict is "stop":** total exposure is the Phase 0–1 hours above, the internal time, and the pilot's Claude seats — and you keep the working toolkit: repo, tools, guides, feedback loop (§9).
 
 ---
 
-## 7. Found work: two open actions for Koos legal
+## 7. Found along the way: two things for your legal team
 
 Surfaced by the Contract Checker work during Build Week (tracked in the repo's feedback log):
 
 1. **The Koos T&C still lists Lisbon, Berlin and Oslo as Koos Group offices** — current reality is Amsterdam + Abu Dhabi.
-2. **The T&C doesn't make methodology/deliverable use rights conditional on full payment** — the Contract Checker flags client contracts for exactly this, so Koos's own paper should match.
+2. **The T&C doesn't make methodology/deliverable use rights conditional on full payment** — the Contract Checker flags client contracts for exactly this, so your own paper should match.
 
 Both are small, both predate this project, and fixing them makes tool and contract consistent. Three further researched gaps (participant consent ownership, change-request process, freelancer carve-outs) are logged as candidates for the tool's risk framework.
 
 ---
 
-## 8. Context files: what we have vs. what we need from Koos
-
-The toolkit is only as good as the Koos knowledge under it.
+## 8. Context files: what we have vs. what we need from you
 
 ### Already in the canon (real content)
 
@@ -139,7 +137,7 @@ The toolkit is only as good as the Koos knowledge under it.
 | `rules.md` — token naming conventions & standards | Jasper & Carmel's original | ✔ bundled, unchanged |
 | `guardrails/core.md` | Bazooka draft | ⚠ explicitly labeled "Koos review pending" until the Phase-0 working session |
 
-### Needed from Koos (the ask list)
+### Needed from you (the ask list)
 
 | # | What | Feeds | Owner at Koos | When |
 |---|---|---|---|---|
@@ -160,7 +158,7 @@ Items 6–9 mostly exist already as decks, wikis and habits — we and the stewa
 
 ## 9. Ownership & exit — in writing
 
-- **The repo and everything in it is Koos property** from the Phase-0 handover: tools, guides, guardrails, feedback logs. We recommend stating this explicitly in the engagement terms.
+- **The repo and everything in it is yours** from the Phase-0 handover: tools, guides, guardrails, feedback logs. We recommend stating this explicitly in the engagement terms.
 - **No key-person dependency by design.** Everything is markdown and git. Any steward — or any future vendor — can maintain, extend, or fork it without Bazooka.
 - **Platform dependency:** distribution rides Claude Code's plugin mechanism, which Anthropic may evolve. The content doesn't care — it's portable markdown; worst case, the same tool files keep working as plain Claude Code skills without the marketplace layer while distribution is re-plumbed.
 - **If the pilot says stop:** see §6. The toolkit remains usable as-is for as long as it's useful.
@@ -169,7 +167,7 @@ Items 6–9 mostly exist already as decks, wikis and habits — we and the stewa
 
 ## 10. Explicitly parked (so nothing is silently dropped)
 
-- **Lead-generation tooling** — parked pending a design that answers deliverability, GDPR and B-Corp reputation questions (the "multiple sending addresses" idea from June needs scrutiny before any build).
+- **Lead-generation tooling** — parked until the deliverability, GDPR and B-Corp reputation questions are answered (the "multiple sending addresses" idea from June needs a hard look before any build).
 - **"GEO"** (generative-engine optimisation — making Koos show up in AI-generated answers) — separate workstream, unrelated to this rollout.
 - **Deeper integration layers** (an MCP bridge — a technical connection layer between systems — and promotion automation) — trigger-gated: revisit only when manual promotion becomes the bottleneck.
 - **Remaining Build Week tools** — in the team folders, promoted deliberately in Phase 2+.
@@ -182,7 +180,7 @@ Items 6–9 mostly exist already as decks, wikis and habits — we and the stewa
 2. Steward name(s) — ideally two — plus their booking arrangement (§3) and a slot for the 2-hour setup session.
 3. Track A owner (contracts) and 2–3 Track B designers, plus the pilot project(s).
 4. A slot for the 60–90 min guardrails working session with research/practice leads.
-5. Legal capacity for the §5 data gate (DPA review + pilot-client contract sweep), and a `#koos-ai` Slack channel.
+5. Legal time for the §5 data checks (DPA review + pilot-client contract sweep), and a `#koos-ai` Slack channel.
 
 ---
 
@@ -206,14 +204,14 @@ Assessed in the Week-3 session by the sponsor. Baselines captured before first t
 | **Tools quietly go stale on a machine** — background updates on a private repo need a one-time access token per machine, separate from normal GitHub login (documented behaviour; silent when missing) | Known, documented, designed around | Token setup + auth check are hard steps in onboarding; symptom + fix in the troubleshooting table; steward re-checks on any "stale tools" report |
 | **Auto-update at startup** — documented, not yet observed on Koos machines | Doc-confirmed; manual path verified | To be confirmed on the first pilot laptops in Week 1; 30-second manual fallback; the mid-pilot release explicitly rehearses it |
 | **Steward bottleneck / single point of failure** | Structural | Two stewards; booking code + re-decision point (§3); guides make the role transferable |
-| **Feedback loop goes quiet** | The classic failure of shared libraries | Two-sentence bar; steward closes the loop visibly (what shipped, who flagged it); explicit success criterion (§12.3) |
+| **Feedback loop goes quiet** | The usual failure mode | Two-sentence bar; steward closes the loop visibly (what shipped, who flagged it); explicit success criterion (§12.3) |
 | **Client data enters the canon** | Prevented by design | Only the steward writes to the canon; anonymisation gate on promotion; Build Week folders (which contain real client documents) are never copied wholesale |
 | **A tool output reaches a client unreviewed** | Process | Track A has a named reviewer before anything goes out; designer-in-the-lead is in the guardrails and the onboarding framing |
 | **Compliance surprise (client contracts)** | Addressed up front | The §5 gate runs before live documents; the team briefing precedes scale-out |
 
 ---
 
-## 14. What Bazooka delivers per phase
+## 14. What we deliver per phase
 
 | Phase | Deliverables | Effort |
 |---|---|---|
