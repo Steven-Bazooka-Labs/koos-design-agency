@@ -1,6 +1,6 @@
 # koos-ai Rollout Plan — from proven concept to working capability
 
-*Bazooka Labs for Koos · July 2026 · Companion to the "Second Brain" memo (June 2026). A one-page summary exists separately; this is the full plan, including costs, data handling, risks, and everything we still need from Koos.*
+*Bazooka Labs for Koos · July 2026 · Follows the June architecture discussion. A one-page summary exists separately; this is the full plan, including costs, data handling, risks, and everything we still need from Koos.*
 
 ---
 
@@ -15,7 +15,7 @@ The June proof-of-concept did its job. What exists and is verified today:
 | **Knowledge base** | Real Koos content: company profile, brand voice; plus a core guardrails draft (Koos review pending — see §4, Phase 0) |
 | **Feedback loop** | Live in the repo, seeded with RJ's real Build Week feedback — including two open actions for Koos legal (§7) |
 | **Operational guides** | Four docs shipped in the repo: setup, designer onboarding, steward guide, how-updates-work |
-| **Install + update mechanics** | Verified end-to-end, including in the desktop app: install, namespaced tools (`/koos:contract-checker`), and the release→update loop (version bump → push → update). Automatic update pickup at startup is documented behaviour, **to be confirmed** on the first pilot machines in Week 1 (the 30-second manual path is verified) |
+| **Install + update mechanics** | Verified end-to-end, including in the desktop app: install, the tools themselves (`/koos:contract-checker`), and the release→update loop (version bump → push → update). Automatic update pickup at startup is documented behaviour, **to be confirmed** on the first pilot machines in Week 1 (the 30-second manual path is verified) |
 | **Demo environment** | Synthetic "Stadslijn" client project folder incl. a test contract with planted issues — used in the June demo, reusable for onboarding |
 
 What is deliberately **not** in scope yet: the other Build Week tools (promoted later, one by one), integrations (HubSpot, Google Slides), the lead-gen and search-visibility workstreams (§10).
@@ -46,7 +46,7 @@ Everything runs the production way from the first day: installed plugin, real pr
 
 **Internal time, added up:** two stewards at 2–4 h/wk over Phase 0 plus the pilot (~4 weeks elapsed) is 16–32 h; sponsor ~4 h; designers ~3–6 h combined. **Roughly 25–40 internal hours total** — that's the real internal cost to put next to the external one (§6).
 
-**Making the steward role stick** (this choice matters more than any technical decision in the plan): give it an internal booking code, a named place in the review cycle ("this is part of your development", not invisible glue work), and a **6-month horizon with an explicit re-decision point**. The profile: a Build Week standout, pragmatic, respected enough that "not in the canon yet" sticks. After Phase 2 mechanisms land, the target is ≤2 h/wk.
+**Making the steward role stick** (this choice matters more than any technical decision in the plan): give it an internal booking code, a named place in the review cycle, and a **6-month horizon with an explicit re-decision point**. The profile: a Build Week standout, pragmatic, respected enough that "not in the canon yet" sticks. After Phase 2 mechanisms land, the target is ≤2 h/wk.
 
 ---
 
@@ -54,21 +54,21 @@ Everything runs the production way from the first day: installed plugin, real pr
 
 ### Phase 0 — Foundation (the week after Koos confirms the §11 items; ~half a day of sessions)
 
-1. Koos creates (or names) its **GitHub organisation**; Bazooka stands up the private `koos-ai` repo there; the interim Bazooka-hosted copy retires. From then on the repo — and everything in it — is Koos property (§9).
+1. Koos creates (or names) its **GitHub organisation**; Bazooka stands up the private `koos-ai` repo there; the interim Bazooka-hosted copy retires.
 2. Koos names the **steward(s)**, the **Track A owner**, and the **pilot designers**; everyone gets repo access; the **#koos-ai** Slack channel is created.
 3. **Data & compliance gate** — the four checks in §5, resolved before any live client document goes through a tool.
-4. **Guardrails working session (60–90 min, Bazooka + Koos research/practice leads).** The current core-guardrails file is a Bazooka draft and is labeled as such. This is *not* a sign-off meeting: Koos's own research-ethics and anonymisation practice gets worked in, and Koos's edits become v1. (A written Koos research-ethics framework has been a known gap since Build Week; this session closes it for the toolkit — the full framework is ask #4 in §8.)
+4. **Guardrails working session (60–90 min, Bazooka + Koos research/practice leads).** The current core-guardrails file is a Bazooka draft. This is *not* a sign-off meeting: Koos's own research-ethics and anonymisation practice gets worked in, and Koos's edits become v1. (The full framework is ask #4 in §8.)
 5. **Steward setup session (~2 h):** walk the repo, do the steward's first release together (a real small fix), verify install + GitHub auth on their machine.
 
 *Exit condition: the steward has shipped a version bump that another machine received via update — and the data gate is green.*
 
 ### Phase 1 — Pilot (3 working weeks)
 
-**Week 1 — Onboard.** Bazooka + steward onboard the pilot group (~45 min each: the 15-minute guide, then a ~30-minute session — install, auth and update-token check, auto-update setup, and a supervised sample run against the setup guide's per-machine checklist). **Baselines are captured before first tool use** (Track A: time spent on the last few contract reviews, per the owner). First live contract goes through the checker this week.
+**Week 1 — Onboard.** Bazooka + steward onboard the pilot group (~45 min each: the 15-minute guide, then a ~30-minute session — install, update checks, and a supervised sample run). **Baselines are captured before first tool use** (Track A: time spent on the last few contract reviews, per the owner). First live contract goes through the checker this week.
 
 **Week 2 — Use.** Both tracks run on real work. Feedback flows to `#koos-ai`. The steward runs the weekly triage-fix-release rhythm; **at least one release ships mid-pilot**, proving the update loop on Koos machines.
 
-**Week 3 — Verify & decide.** Steward + Bazooka compile the evidence: usage (from the feedback log and self-reports — **nothing is measured on anyone's machine**), time-vs-baseline, feedback→fix cycle times, the Drive-folder verdict, auth/update reliability. Pilot review session: **the sponsor judges the criteria (§12) and decides** — expand, adjust, or stop.
+**Week 3 — Verify & decide.** Steward + Bazooka compile the evidence: usage (from the feedback log and self-reports), time-vs-baseline, feedback→fix cycle times, the Drive-folder verdict, auth/update reliability. Pilot review session: **the sponsor judges the criteria (§12) and decides** — expand, adjust, or stop.
 
 *(Calendar note: three **working** weeks — with summer holidays, let the elapsed time stretch rather than pilot with half the group away.)*
 
@@ -94,7 +94,7 @@ The honest mechanics: **running a tool sends the working files' content to Anthr
 3. **Client permission check.** A legal sweep of the pilot clients' MSAs/NDAs for AI/subprocessor clauses **before** their documents go through a tool. Where a contract doesn't permit it: that client's documents stay out of the pilot (or go through in redacted form).
 4. **The client-facing answer**, drafted for legal review, so every Koos person says the same thing when asked. Working draft: *"We use Claude (Anthropic) as a drafting assistant under a commercial agreement — client data is not used for model training and is handled per our data-processing agreement. A Koos professional reviews everything before it reaches you, and on request we exclude your project from AI-assisted work."* **[To be reviewed and owned by Koos legal.]**
 
-**The employee side.** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on anyone's machine — and pilot participation is voluntary. That's deliberate: these are assistive tools, not monitoring, and the design keeps it that way. Before the Phase-2 scale-out, **brief the wider team** on what the toolkit is and what usage data exists (through whatever employee-representation form Koos has, or simply the staff meeting) — a five-minute courtesy that prevents rumours.
+**The employee side.** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on anyone's machine — and pilot participation is voluntary. Before the Phase-2 scale-out, **brief the wider team** on what the toolkit is and what usage data exists.
 
 ---
 
@@ -109,7 +109,7 @@ The honest mechanics: **running a tool sends the working files' content to Anthr
 
 *Bracketed effort figures are Bazooka's estimates; rates and totals are in the engagement note that accompanies this plan.*
 
-**If the Week-3 verdict is "stop":** total exposure is the Phase 0–1 hours above, the internal time, and the pilot's Claude seats — and Koos keeps a working, documented toolkit: the repo, all three tools, the guides and the feedback loop are Koos property in working order (§9). Phase 2 and 3 are only entered by decision, never by momentum.
+**If the Week-3 verdict is "stop":** total exposure is the Phase 0–1 hours above, the internal time, and the pilot's Claude seats — and Koos keeps the working toolkit: repo, tools, guides, feedback loop (§9).
 
 ---
 
@@ -161,8 +161,8 @@ Items 6–9 usually already exist as decks, wikis, and habits — the steward + 
 ## 9. Ownership & exit — in writing
 
 - **The repo and everything in it is Koos property** from the Phase-0 handover: tools, guides, guardrails, feedback logs. We recommend stating this explicitly in the engagement terms.
-- **No key-person dependency by design.** Everything is markdown and git. Any steward — or any future vendor — can maintain, extend, or fork it without Bazooka. The guides exist precisely so the operating knowledge doesn't live in one head.
-- **Platform dependency:** distribution rides Claude Code's plugin mechanism, which Anthropic may evolve. The content doesn't care — it's portable markdown; worst case, the same tool folders drop into Claude Code's plain skills locations (`~/.claude/skills/` or a project's `.claude/skills/`) and keep working — invocations just lose the `koos:` prefix — while distribution is re-plumbed. The update mechanics in the guides are the part most exposed to change, and the steward guide flags exactly that.
+- **No key-person dependency by design.** Everything is markdown and git. Any steward — or any future vendor — can maintain, extend, or fork it without Bazooka.
+- **Platform dependency:** distribution rides Claude Code's plugin mechanism, which Anthropic may evolve. The content doesn't care — it's portable markdown; worst case, the same tool files keep working as plain Claude Code skills without the marketplace layer while distribution is re-plumbed.
 - **If the pilot says stop:** see §6. The toolkit remains usable as-is for as long as it's useful.
 
 ---
@@ -188,7 +188,7 @@ Items 6–9 usually already exist as decks, wikis, and habits — the steward + 
 
 ## 12. Pilot success criteria — agreed up front, judged by Koos
 
-Assessed in the Week-3 session **by the sponsor, not by Bazooka**. Baselines captured before first tool use.
+Assessed in the Week-3 session by the sponsor. Baselines captured before first tool use.
 
 1. **Track A:** ≥ 3 live contracts through the checker; ≥ 1 tool-drafted amendment sent after the commercial owner's review; time-per-review vs. the pre-pilot baseline, with the target set by the sponsor at kickoff.
 2. **Track B:** ≥ 2 real runs of the design/research tools whose outputs were actually used in project work — as judged by the designers.
@@ -202,7 +202,7 @@ Assessed in the Week-3 session **by the sponsor, not by Bazooka**. Baselines cap
 
 | Risk | Status | Mitigation |
 |---|---|---|
-| **Google Drive project folders**: Claude Code reading Drive-for-Desktop files has known rough edges (online-only/streamed files; open bug reports) | Partially verified; the pilot settles it | "Make available offline" as standard practice (in the onboarding guide). **Plan B if the Week-3 verdict is "avoid":** (a) local working folder per project with a defined move-to-Drive step at project close, or (b) Drive stays the archive and active work happens in an offline-marked subset. The call is the sponsor's + steward's, with Week-3 evidence — it's an architecture decision, and it stays Koos's |
+| **Google Drive project folders**: Claude Code reading Drive-for-Desktop files has known rough edges (online-only/streamed files; open bug reports) | Partially verified; the pilot settles it | "Make available offline" as standard practice (in the onboarding guide). **Plan B if the Week-3 verdict is "avoid":** (a) local working folder per project with a defined move-to-Drive step at project close, or (b) Drive stays the archive and active work happens in an offline-marked subset. The call is the sponsor's + steward's, with Week-3 evidence |
 | **Tools quietly go stale on a machine** — background updates on a private repo need a one-time access token per machine, separate from normal GitHub login (documented behaviour; silent when missing) | Known, documented, designed around | Token setup + auth check are hard steps in onboarding; symptom + fix in the troubleshooting table; steward re-checks on any "stale tools" report |
 | **Auto-update at startup** — documented, not yet observed on Koos machines | Doc-confirmed; manual path verified | To be confirmed on the first pilot laptops in Week 1; 30-second manual fallback; the mid-pilot release explicitly rehearses it |
 | **Steward bottleneck / single point of failure** | Structural | Two stewards; booking code + re-decision point (§3); guides make the role transferable |
