@@ -10,12 +10,12 @@ The June proof-of-concept did its job. What exists and is verified today:
 
 | Asset | Status |
 |---|---|
-| **`koos-ai` repo** — the **canon** (the single Koos-owned source of truth for tools and knowledge) and the **plugin marketplace** (the mechanism Claude Code uses to install and update from it), in one | Built, private on GitHub (v0.3.0) |
+| **`koos-ai` repo** — the **canon** (the single Koos-owned source of truth for tools and knowledge) and the **plugin marketplace** (the mechanism Claude Code uses to install and update from it), in one | Built, private on GitHub (v0.3.1) |
 | **Three priority tools** as agreed: Contract Checker, Survey Builder, Design Token Generator | Complete — including the companion rule files (survey quality rules, survey structure guide, token naming standards), carried over intact from the Build Week originals |
 | **Knowledge base** | Real Koos content: company profile, brand voice; plus a core guardrails draft (Koos review pending — see §4, Phase 0) |
 | **Feedback loop** | Live in the repo, seeded with RJ's real Build Week feedback — including two open actions for Koos legal (§7) |
 | **Operational guides** | Four docs shipped in the repo: setup, designer onboarding, steward guide, how-updates-work |
-| **Install + update mechanics** | Verified end-to-end, including in the desktop app: install, namespaced tools (`/koos:contract-checker`), and the release→update loop (version bump → push → update). Automatic update pickup at startup is documented behaviour, confirmed on the first pilot machines in Week 1 (the 30-second manual path is verified) |
+| **Install + update mechanics** | Verified end-to-end, including in the desktop app: install, namespaced tools (`/koos:contract-checker`), and the release→update loop (version bump → push → update). Automatic update pickup at startup is documented behaviour, **to be confirmed** on the first pilot machines in Week 1 (the 30-second manual path is verified) |
 | **Demo environment** | Synthetic "Stadslijn" client project folder incl. a test contract with planted issues — used in the June demo, reusable for onboarding |
 
 What is deliberately **not** in scope yet: the other Build Week tools (promoted later, one by one), integrations (HubSpot, Google Slides), the lead-gen and search-visibility workstreams (§10).
@@ -44,7 +44,7 @@ Everything runs the production way from the first day: installed plugin, real pr
 | **Pilot designers** | Koos, 2–3 people | their normal work + ~1–2 h total each | Use the tools on real work; log feedback (2 sentences in Slack) |
 | **Bazooka** | Steven | per phase, see §6 | Setup, coaching the steward, tool fixes, pilot support, review |
 
-**Internal time, added up honestly:** two stewards at 2–4 h/wk over the ~4-week pilot window is 16–32 h; sponsor ~4 h; designers ~3–6 h combined. **Roughly 25–40 internal hours total** — that's the real internal cost to put next to the external one (§6).
+**Internal time, added up:** two stewards at 2–4 h/wk over Phase 0 plus the pilot (~4 weeks elapsed) is 16–32 h; sponsor ~4 h; designers ~3–6 h combined. **Roughly 25–40 internal hours total** — that's the real internal cost to put next to the external one (§6).
 
 **Making the steward role stick** (this choice matters more than any technical decision in the plan): give it an internal booking code, a named place in the review cycle ("this is part of your development", not invisible glue work), and a **6-month horizon with an explicit re-decision point**. The profile: a Build Week standout, pragmatic, respected enough that "not in the canon yet" sticks. After Phase 2 mechanisms land, the target is ≤2 h/wk.
 
@@ -57,14 +57,14 @@ Everything runs the production way from the first day: installed plugin, real pr
 1. Koos creates (or names) its **GitHub organisation**; Bazooka stands up the private `koos-ai` repo there; the interim Bazooka-hosted copy retires. From then on the repo — and everything in it — is Koos property (§9).
 2. Koos names the **steward(s)**, the **Track A owner**, and the **pilot designers**; everyone gets repo access; the **#koos-ai** Slack channel is created.
 3. **Data & compliance gate** — the four checks in §5, resolved before any live client document goes through a tool.
-4. **Guardrails working session (60–90 min, Bazooka + Koos research/practice leads).** The current core-guardrails file is a Bazooka draft and is labeled as such. This is *not* a sign-off meeting: Koos's own research-ethics and anonymisation practice gets worked in, and Koos's edits become v1. (Honest context: Koos's real research-ethics framework has been a known gap since Build Week — the starter pack shipped a placeholder. This session closes that gap for the toolkit; the full framework is ask #4 in §8.)
+4. **Guardrails working session (60–90 min, Bazooka + Koos research/practice leads).** The current core-guardrails file is a Bazooka draft and is labeled as such. This is *not* a sign-off meeting: Koos's own research-ethics and anonymisation practice gets worked in, and Koos's edits become v1. (Context: Koos's real research-ethics framework has been a known gap since Build Week — the starter pack shipped a placeholder. This session closes that gap for the toolkit; the full framework is ask #4 in §8.)
 5. **Steward setup session (~2 h):** walk the repo, do the steward's first release together (a real small fix), verify install + GitHub auth on their machine.
 
 *Exit condition: the steward has shipped a version bump that another machine received via update — and the data gate is green.*
 
 ### Phase 1 — Pilot (3 working weeks)
 
-**Week 1 — Onboard.** Bazooka + steward onboard the pilot group (~30 min each: the 15-minute guide plus install, auth check, auto-update setup, and a supervised sample run against the onboarding checklist). **Baselines are captured before first tool use** (Track A: time spent on the last few contract reviews, per the owner). First live contract goes through the checker this week.
+**Week 1 — Onboard.** Bazooka + steward onboard the pilot group (~45 min each: the 15-minute guide, then a ~30-minute session — install, auth and update-token check, auto-update setup, and a supervised sample run against the setup guide's per-machine checklist). **Baselines are captured before first tool use** (Track A: time spent on the last few contract reviews, per the owner). First live contract goes through the checker this week.
 
 **Week 2 — Use.** Both tracks run on real work. Feedback flows to `#koos-ai`. The steward runs the weekly triage-fix-release rhythm; **at least one release ships mid-pilot**, proving the update loop on Koos machines.
 
@@ -74,8 +74,8 @@ Everything runs the production way from the first day: installed plugin, real pr
 
 ### Phase 2 — Expand (after the pilot review)
 
-- Onboard the next wave with the same guides (repeatable without Bazooka in the room); pick the scale-out mechanism — onboarding script, shared project settings, or settings IT deploys centrally to every Mac ("managed settings") — options in `docs/setup-guide.md` §5.
-- **Inform the works council before this phase** (see §5).
+- Onboard the next wave with the same guides (repeatable without Bazooka in the room); pick the scale-out mechanism — onboarding script, shared project settings, or settings IT deploys centrally to every Mac ("managed settings") — options in `docs/setup-guide.md`, Step 5.
+- **Brief the employee representation before this phase** (see §5).
 - Promote the next tools from the Build Week set, one release at a time. Candidates by evidence and readiness: **transcript-analyser**, **figma-token-checker** (its rules file already exists), **email-proposal**, **case-builder**. Integration-dependent tools (**pitch-builder**/Google Slides, **am-assistant**/HubSpot) only after their integrations are decided.
 - Add **sector guardrail modules** (healthcare first, given VGZ/Santeon-type work), loaded per client sector.
 
@@ -90,11 +90,11 @@ Steward rhythm on a fixed weekly slot; quarterly tool review (usage, staleness, 
 The honest mechanics: **running a tool sends the working files' content to Anthropic's Claude API for processing** — that's how Claude Code works. Installing the toolkit uploads nothing; nothing ever enters the shared repo un-anonymised. But "we put your contract through an AI" is a sentence Koos must be able to complete confidently for clients like VGZ or Rijkswaterstaat. Four checks, all before live client documents go through:
 
 1. **Account setup.** Pilot runs on a **Koos-owned Claude workspace under Anthropic's commercial terms** (business data not used for training; admin control) — not on personal accounts. Decide tier and seats; budget note in §6.
-2. **DPA & processing.** Execute Anthropic's commercial data-processing agreement; confirm retention settings and processing location as part of that review. *(Bazooka prepares the summary; Koos legal confirms.)*
+2. **DPA & processing.** Review Anthropic's data-processing addendum (it's incorporated into the commercial terms); confirm retention settings and processing location as part of that review. *(Bazooka prepares the summary; Koos legal confirms.)*
 3. **Client permission check.** A legal sweep of the pilot clients' MSAs/NDAs for AI/subprocessor clauses **before** their documents go through a tool. Where a contract doesn't permit it: that client's documents stay out of the pilot (or go through in redacted form).
 4. **The client-facing answer**, drafted for legal review, so every Koos person says the same thing when asked. Working draft: *"We use Claude (Anthropic) as a drafting assistant under a commercial agreement — client data is not used for model training and is handled per our data-processing agreement. A Koos professional reviews everything before it reaches you, and on request we exclude your project from AI-assisted work."* **[To be reviewed and owned by Koos legal.]**
 
-**Works council / AVG note (employee side).** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on machines; pilot participation is voluntary. Tooling that touches how employees work can fall under works-council rights (WOR art. 27), so: pilot with volunteers now, **inform the OR before the Phase-2 scale-out**. Solvable, and cheaper to raise in week 0 than to discover in week 6.
+**Employee representation / AVG note.** Pilot metrics are aggregated and self-reported only — no per-person dashboards, nothing measured on machines; pilot participation is voluntary. That design keeps the pilot outside "monitoring" territory on purpose: tooling capable of tracking behaviour or performance triggers a works-council **consent** right at 50+ employees (WOR art. 27); at Koos's ~40 people the lighter PVT/staff-meeting regime applies (WOR arts. 35b/35c), with narrower formal rights. We still **brief the PVT — or the staff meeting, or the OR if Koos has voluntarily instituted one — before the Phase-2 scale-out**. Cheaper to raise in week 0 than to discover in week 6.
 
 ---
 
@@ -107,9 +107,9 @@ The honest mechanics: **running a tool sends the working files' content to Anthr
 | **Koos internal, Phases 0–1** | ~25–40 h (per §3) | opportunity cost, mostly steward |
 | **Claude licensing** | — | Koos's own Anthropic workspace seats for pilot participants (tier decision in the §5 data gate) |
 
-*Bracketed effort figures are Bazooka's estimates to be confirmed in the engagement note — they are the scope of this plan, not a quote.*
+*Bracketed effort figures are Bazooka's estimates; rates and totals are in the engagement note that accompanies this plan.*
 
-**If the Week-3 verdict is "stop":** total exposure is the Phase 0–1 hours above plus the internal time — and Koos keeps a working, documented toolkit: the repo, all three tools, the guides and the feedback loop are Koos property in working order (§9). Phase 2 and 3 are only entered by decision, never by momentum.
+**If the Week-3 verdict is "stop":** total exposure is the Phase 0–1 hours above, the internal time, and the pilot's Claude seats — and Koos keeps a working, documented toolkit: the repo, all three tools, the guides and the feedback loop are Koos property in working order (§9). Phase 2 and 3 are only entered by decision, never by momentum.
 
 ---
 
@@ -117,7 +117,7 @@ The honest mechanics: **running a tool sends the working files' content to Anthr
 
 Surfaced by the Contract Checker work during Build Week (tracked in the repo's feedback log):
 
-1. **The Koos T&C still lists Lisboa, Berlin and Oslo as Koos Group offices** — current reality is Amsterdam + Abu Dhabi.
+1. **The Koos T&C still lists Lisbon, Berlin and Oslo as Koos Group offices** — current reality is Amsterdam + Abu Dhabi.
 2. **The T&C doesn't make methodology/deliverable use rights conditional on full payment** — the Contract Checker flags client contracts for exactly this, so Koos's own paper should match.
 
 Both are small, both predate this project, and fixing them makes tool and contract consistent. Three further researched gaps (participant consent ownership, change-request process, freelancer carve-outs) are logged as candidates for the tool's risk framework.
@@ -162,7 +162,7 @@ Items 6–9 usually already exist as decks, wikis, and habits — the steward + 
 
 - **The repo and everything in it is Koos property** from the Phase-0 handover: tools, guides, guardrails, feedback logs. We recommend stating this explicitly in the engagement terms. (Bazooka stays free to reuse the *generic* operating model — canon/marketplace/steward pattern — elsewhere; never Koos's content.)
 - **No key-person dependency by design.** Everything is markdown and git. Any steward — or any future vendor — can maintain, extend, or fork it without Bazooka. The guides exist precisely so the operating knowledge doesn't live in one head.
-- **Platform dependency, honestly:** distribution rides Claude Code's plugin mechanism, which Anthropic may evolve. The content doesn't care — it's portable markdown; worst case, the same files work as a plain shared folder while distribution is re-plumbed. The update mechanics in the guides are the part most exposed to change, and the steward guide flags exactly that.
+- **Platform dependency:** distribution rides Claude Code's plugin mechanism, which Anthropic may evolve. The content doesn't care — it's portable markdown; worst case, the same tool folders drop into Claude Code's plain skills locations (`~/.claude/skills/` or a project's `.claude/skills/`) and keep working — invocations just lose the `koos:` prefix — while distribution is re-plumbed. The update mechanics in the guides are the part most exposed to change, and the steward guide flags exactly that.
 - **If the pilot says stop:** see §6. The toolkit remains usable as-is for as long as it's useful.
 
 ---
@@ -179,10 +179,10 @@ Items 6–9 usually already exist as decks, wikis, and habits — the steward + 
 ## 11. What we need confirmed to start (the Phase-0 list)
 
 1. GitHub organisation (or green light for Bazooka to create one in Koos's name).
-2. Steward name(s) — ideally two — plus their booking arrangement (§3).
+2. Steward name(s) — ideally two — plus their booking arrangement (§3) and a slot for the 2-hour setup session.
 3. Track A owner (contracts) and 2–3 Track B designers, plus the pilot project(s).
-4. A slot for the guardrails working session with research/practice leads.
-5. Legal capacity for the §5 data gate (DPA review + pilot-client contract sweep).
+4. A slot for the 60–90 min guardrails working session with research/practice leads.
+5. Legal capacity for the §5 data gate (DPA review + pilot-client contract sweep), and a `#koos-ai` Slack channel.
 
 ---
 
@@ -196,17 +196,17 @@ Assessed in the Week-3 session **by the sponsor, not by Bazooka**. Baselines cap
 4. **Operational verdicts, documented:** Google Drive workflow (works / workaround / avoid) and update+auth reliability per machine.
 5. **A decision** — expand / adjust / stop — made on this evidence.
 
-These are criteria the pilot can *fail*. That's deliberate: if the value case is real, it survives honest measurement.
+These are criteria the pilot can *fail*. That's deliberate: if the value case is real, it survives being measured.
 
 ---
 
-## 13. Risks & mitigations — stated honestly
+## 13. Risks & mitigations
 
 | Risk | Status | Mitigation |
 |---|---|---|
-| **Google Drive project folders**: Claude Code reading Drive-for-Desktop files has known rough edges (online-only/streamed files; open bug reports) | Partially verified; the pilot settles it | "Make available offline" as standard practice (in the onboarding guide). **Plan B if the Week-3 verdict is "avoid":** (a) local working folder per project with a defined move-to-Drive step at project close (Macs are FileVault-encrypted; governance implications named, not shrugged at), or (b) Drive stays the archive and active work happens in an offline-marked subset. The call is the sponsor's + steward's, with Week-3 evidence — it's an architecture decision, and it stays Koos's |
-| **Private-repo auth fails silently** on a machine → tools quietly go stale (documented Claude Code issues) | Known, documented | Auth check is a hard step in onboarding; symptom + fix in the troubleshooting table; steward re-checks on any "stale tools" report |
-| **Auto-update at startup** — documented, not yet observed on Koos machines | Doc-confirmed; manual path verified | Confirmed on the first pilot laptops in Week 1; 30-second manual fallback; the mid-pilot release explicitly rehearses it |
+| **Google Drive project folders**: Claude Code reading Drive-for-Desktop files has known rough edges (online-only/streamed files; open bug reports) | Partially verified; the pilot settles it | "Make available offline" as standard practice (in the onboarding guide). **Plan B if the Week-3 verdict is "avoid":** (a) local working folder per project with a defined move-to-Drive step at project close (disk encryption — standard on modern Macs — to be confirmed across Koos's fleet or enforced centrally; governance implications named, not shrugged at), or (b) Drive stays the archive and active work happens in an offline-marked subset. The call is the sponsor's + steward's, with Week-3 evidence — it's an architecture decision, and it stays Koos's |
+| **Tools quietly go stale on a machine** — background updates on a private repo need a one-time access token per machine, separate from normal GitHub login (documented behaviour; silent when missing) | Known, documented, designed around | Token setup + auth check are hard steps in onboarding; symptom + fix in the troubleshooting table; steward re-checks on any "stale tools" report |
+| **Auto-update at startup** — documented, not yet observed on Koos machines | Doc-confirmed; manual path verified | To be confirmed on the first pilot laptops in Week 1; 30-second manual fallback; the mid-pilot release explicitly rehearses it |
 | **Steward bottleneck / single point of failure** | Structural | Two stewards; booking code + re-decision point (§3); guides make the role transferable |
 | **Feedback loop goes quiet** | The classic failure of shared libraries | Two-sentence bar; steward closes the loop visibly (what shipped, who flagged it); explicit success criterion (§12.3) |
 | **Client data enters the canon** | Prevented by design | Only the steward writes to the canon; anonymisation gate on promotion; Build Week folders (which contain real client documents) are never copied wholesale |
@@ -228,4 +228,4 @@ These are criteria the pilot can *fail*. That's deliberate: if the value case is
 
 ## Appendix — claim verification status
 
-Because this plan makes operational promises, the honest ledger. **Verified by doing** (multiple machines, June–July 2026): the install commands; the desktop-app GUI path with a private repo; namespaced skill invocation; the full release→marketplace-refresh→plugin-update loop; the settings blocks Claude Code writes on install; the bundled rule files byte-identical to the Build Week originals. **Documented, pilot-verifies:** automatic update pickup at startup on designer machines; team pre-provisioning prompts. **Known issues, designed around** (all public Claude Code issue-tracker items): marketplace remove/re-add doesn't refresh; `enabledPlugins` doesn't auto-install; silent auth failures on private repos; Google Drive online-only files. Details and sources live in the repo's `docs/`.
+Because this plan makes operational promises, the honest ledger. **Verified by doing** (multiple machines, June–July 2026): the install commands; the desktop-app GUI path with a private repo; namespaced skill invocation; the full release→marketplace-refresh→plugin-update loop; the settings blocks Claude Code writes on install; the bundled rule files byte-identical to the Build Week originals. **Documented, pilot-verifies:** automatic update pickup at startup on designer machines; team pre-provisioning (Claude Code prompting to add the marketplace when a shared project declares it). **Known behaviours and issues, designed around** (documented by Anthropic or on the public Claude Code issue tracker): marketplace remove/re-add doesn't refresh; `enabledPlugins` doesn't auto-install; background updates on private repos need an environment token (missing token fails silently); Google Drive online-only files. Details and sources live in the repo's `docs/`.
