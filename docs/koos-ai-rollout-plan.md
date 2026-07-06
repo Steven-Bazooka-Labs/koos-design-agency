@@ -1,12 +1,12 @@
 # koos-ai Rollout Plan — from proven concept to working capability
 
-*Bazooka Labs for Koos · July 2026 · Follows the June architecture discussion. A one-page summary exists separately; this is the full plan, including costs, data handling, risks, and everything we still need from Koos.*
+*Bazooka Labs for Koos · July 2026 · The full plan behind the one-page summary: costs, data handling, risks, and what we need from you.*
 
 ---
 
 ## 1. Where we stand
 
-The June proof-of-concept did its job. What exists and is verified today:
+The June proof-of-concept did its job. What's ready today:
 
 | Asset | Status |
 |---|---|
@@ -15,22 +15,22 @@ The June proof-of-concept did its job. What exists and is verified today:
 | **Knowledge base** | Real Koos content: company profile, brand voice; plus a core guardrails draft (Koos review pending — see §4, Phase 0) |
 | **Feedback loop** | Live in the repo, seeded with RJ's real Build Week feedback — including two open actions for Koos legal (§7) |
 | **Operational guides** | Four docs shipped in the repo: setup, designer onboarding, steward guide, how-updates-work |
-| **Install + update mechanics** | Verified end-to-end, including in the desktop app: install, the tools themselves (`/koos:contract-checker`), and the release→update loop (version bump → push → update). Automatic update pickup at startup is documented behaviour, **to be confirmed** on the first pilot machines in Week 1 (the 30-second manual path is verified) |
+| **Install + update mechanics** | Install, the tools (`/koos:contract-checker`), and the release→update loop all tested end-to-end, desktop app included. One piece left to confirm on your machines in Week 1: automatic pickup at startup (the manual fallback takes 30 seconds) |
 | **Demo environment** | Synthetic "Stadslijn" client project folder incl. a test contract with planted issues — used in the June demo, reusable for onboarding |
 
 What is deliberately **not** in scope yet: the other Build Week tools (promoted later, one by one), integrations (HubSpot, Google Slides), the lead-gen and search-visibility workstreams (§10).
 
 ---
 
-## 2. The approach: one pilot, two tracks, production-real
+## 2. One pilot, two tracks, on live work
 
-We start narrow and real, not broad and theoretical. Two tracks, because the tools serve two different workflows:
+We start narrow and real. Two tracks, because the tools serve two different workflows:
 
-**Track A — Contracts (the depth test).** The Contract Checker runs where contracts actually live: with the new-business side (it was built by RJ for exactly that context). During the pilot, every incoming contract goes through the checker there. **Nothing tool-drafted leaves the building unreviewed:** amendments and emails go out only after sign-off by the commercial owner — and legal, where Koos's normal process requires it. Naming that reviewer is part of the Phase-0 confirmation.
+**Track A — Contracts (the depth test).** The Contract Checker runs where contracts actually live: new business (RJ built it for exactly that). Every incoming contract goes through it during the pilot. Anything the tool drafts goes out only after the commercial owner signs off — and legal, where your normal process requires it. Naming that reviewer is part of Phase 0.
 
 **Track B — Design & research tools (the breadth test).** 2–3 designers use the Survey Builder and/or the Design Token Generator on live project work, as their projects actually need them. This is what tests the "shared toolkit for designers" story: install, use in a real project folder, feedback, updates.
 
-Everything runs the production way from the first day: installed plugin, real project folders, feedback loop, versioned updates. Build Week's per-team setups did exactly their job — proving the tools were worth building. The pilot proves the shared way of running them.
+Everything runs the production way from day one: installed plugin, real project folders, feedback loop, versioned updates. Build Week proved the tools are worth having; the pilot proves the shared way of running them.
 
 ---
 
@@ -46,7 +46,7 @@ Everything runs the production way from the first day: installed plugin, real pr
 
 **Internal time, added up:** two stewards at 2–4 h/wk over Phase 0 plus the pilot (~4 weeks elapsed) is 16–32 h; sponsor ~4 h; designers ~3–6 h combined. **Roughly 25–40 internal hours total** — that's the real internal cost to put next to the external one (§6).
 
-**Making the steward role stick** (this choice matters more than any technical decision in the plan): give it an internal booking code, a named place in the review cycle, and a **6-month horizon with an explicit re-decision point**. The profile: a Build Week standout, pragmatic, respected enough that "not in the canon yet" sticks. After Phase 2 mechanisms land, the target is ≤2 h/wk.
+**Making the steward role stick** — this is the choice that matters most in this plan: give it an internal booking code, a place in the review cycle, and a **6-month re-decision point**. The profile: a Build Week standout, pragmatic, respected enough that "not yet" sticks. Target after Phase 2: ≤2 h/wk.
 
 ---
 
@@ -66,7 +66,7 @@ Everything runs the production way from the first day: installed plugin, real pr
 
 **Week 1 — Onboard.** Bazooka + steward onboard the pilot group (~45 min each: the 15-minute guide, then a ~30-minute session — install, update checks, and a supervised sample run). **Baselines are captured before first tool use** (Track A: time spent on the last few contract reviews, per the owner). First live contract goes through the checker this week.
 
-**Week 2 — Use.** Both tracks run on real work. Feedback flows to `#koos-ai`. The steward runs the weekly triage-fix-release rhythm; **at least one release ships mid-pilot**, proving the update loop on Koos machines.
+**Week 2 — Use.** Both tracks run on real work. Feedback flows to `#koos-ai`. The steward runs the weekly triage-fix-release rhythm; **at least one release ships mid-pilot**, proving the update loop on your machines.
 
 **Week 3 — Verify & decide.** Steward + Bazooka compile the evidence: usage (from the feedback log and self-reports), time-vs-baseline, feedback→fix cycle times, the Drive-folder verdict, auth/update reliability. Pilot review session: **the sponsor judges the criteria (§12) and decides** — expand, adjust, or stop.
 
@@ -87,7 +87,7 @@ Steward rhythm on a fixed weekly slot; quarterly tool review (usage, staleness, 
 
 ## 5. Data & compliance — the Phase-0 gate
 
-The honest mechanics: **running a tool sends the working files' content to Anthropic's Claude API for processing** — that's how Claude Code works. Installing the toolkit uploads nothing; nothing ever enters the shared repo un-anonymised. But "we put your contract through an AI" is a sentence Koos must be able to complete confidently for clients like VGZ or Rijkswaterstaat. Four checks, all before live client documents go through:
+Plainly: **running a tool sends the files you're working on to Anthropic's Claude API** — that's how Claude Code works. Installing uploads nothing, and nothing enters the shared repo un-anonymised. But "we put your contract through an AI" is a sentence you need to be able to finish confidently when a VGZ or Rijkswaterstaat asks. Four checks before any live client document goes through:
 
 1. **Account setup.** Pilot runs on a **Koos-owned Claude workspace under Anthropic's commercial terms** (business data not used for training; admin control) — not on personal accounts. Decide tier and seats; budget note in §6.
 2. **DPA & processing.** Review Anthropic's data-processing addendum (it's incorporated into the commercial terms); confirm retention settings and processing location as part of that review. *(Bazooka prepares the summary; Koos legal confirms.)*
@@ -154,7 +154,7 @@ The toolkit is only as good as the Koos knowledge under it.
 | 9 | **Deliverable formats** — the report/proposal structures worth templating | `templates/` | Practice leads | Phase 2 |
 | 10 | *(Per-tool, later)* rate card (email-proposal), HubSpot access (am-assistant), Slides template (pitch-builder) | Next promotions | Various | When promoted |
 
-Items 6–9 usually already exist as decks, wikis, and habits — the steward + Bazooka turn what exists into canon files; Koos reviews. Nothing needs writing from scratch.
+Items 6–9 mostly exist already as decks, wikis and habits — we and the steward turn them into canon files; you review. Nothing gets written from scratch.
 
 ---
 
@@ -186,7 +186,7 @@ Items 6–9 usually already exist as decks, wikis, and habits — the steward + 
 
 ---
 
-## 12. Pilot success criteria — agreed up front, judged by Koos
+## 12. Pilot success criteria — agreed up front, judged by you
 
 Assessed in the Week-3 session by the sponsor. Baselines captured before first tool use.
 
@@ -226,4 +226,4 @@ Assessed in the Week-3 session by the sponsor. Baselines captured before first t
 
 ## Appendix — claim verification status
 
-Because this plan makes operational promises, the honest ledger. **Verified by doing** (multiple machines, June–July 2026): the install commands; the desktop-app GUI path with a private repo; namespaced skill invocation; the full release→marketplace-refresh→plugin-update loop; the settings blocks Claude Code writes on install; the bundled rule files byte-identical to the Build Week originals. **Documented, pilot-verifies:** automatic update pickup at startup on designer machines; team pre-provisioning (Claude Code prompting to add the marketplace when a shared project declares it). **Known behaviours and issues, designed around** (documented by Anthropic or on the public Claude Code issue tracker): marketplace remove/re-add doesn't refresh; `enabledPlugins` doesn't auto-install; background updates on private repos need an environment token (missing token fails silently); Google Drive online-only files. Details and sources live in the repo's `docs/`.
+Because this plan makes operational promises, here's what's tested and what isn't. **Verified by doing** (multiple machines, June–July 2026): the install commands; the desktop-app GUI path with a private repo; namespaced skill invocation; the full release→marketplace-refresh→plugin-update loop; the settings blocks Claude Code writes on install; the bundled rule files byte-identical to the Build Week originals. **Documented, pilot-verifies:** automatic update pickup at startup on designer machines; team pre-provisioning (Claude Code prompting to add the marketplace when a shared project declares it). **Known behaviours and issues, designed around** (documented by Anthropic or on the public Claude Code issue tracker): marketplace remove/re-add doesn't refresh; `enabledPlugins` doesn't auto-install; background updates on private repos need an environment token (missing token fails silently); Google Drive online-only files. Details and sources live in the repo's `docs/`.
